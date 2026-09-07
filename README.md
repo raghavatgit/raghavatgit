@@ -47,9 +47,11 @@ Undergraduate in Computer Science at South Asian University ('29)
 
 ---
 
-## Engineering Activity
+## Architecture and Deployment Status
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=raghavatgit&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raghavatgit&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
-</div>
+| Project | Environment | Architecture Focus | Deployment |
+| :--- | :--- | :--- | :--- |
+| **StreamShield** | Windows 10/11 Desktop | Rust, Tauri, WinAPI DLL, Process Isolation | [Repository](https://github.com/raghavatgit/StreamShield) |
+| **ContactMe** | Production Edge Web | Vanilla JS, Real-Time CSS 3D Matrix Math | [contactraghav.web.app](https://contactraghav.web.app) |
+| **Zenflow-3D** | Experimental Spatial UI | CSS3 Perspective Hierarchies | [Repository](https://github.com/raghavatgit/Zenflow-3D) |
+| **Zenflow** | Distraction-Free Web | Lightweight Pomodoro and Focus Engine | [Repository](https://github.com/raghavatgit/Zenflow) |
