@@ -55,3 +55,6 @@ Undergraduate in Computer Science at South Asian University ('29)
 | **ContactMe** | Production Edge Web | Vanilla JS, Real-Time CSS 3D Matrix Math | [contactraghav.web.app](https://contactraghav.web.app) |
 | **Zenflow-3D** | Experimental Spatial UI | CSS3 Perspective Hierarchies | [Repository](https://github.com/raghavatgit/Zenflow-3D) |
 | **Zenflow** | Distraction-Free Web | Lightweight Pomodoro and Focus Engine | [Repository](https://github.com/raghavatgit/Zenflow) |
+| **TIL Knowledge Base** | Technical Documentation | Systems, IoT, WebGL, and Cloud Insights | [Repository](https://github.com/raghavatgit/til) |
+| **DSA Patterns** | Algorithms & Complexity | Idiomatic Rust and TypeScript Implementations | [Repository](https://github.com/raghavatgit/dsa-patterns) |
+| **Dotfiles** | Environment Tooling | PowerShell Profiles, Git Aliases, Terminal Themes | [Repository](https://github.com/raghavatgit/dotfiles) |
