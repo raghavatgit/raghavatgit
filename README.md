@@ -34,6 +34,11 @@ Undergraduate in Computer Science at South Asian University ('29)
 * Operates at the operating system level to exclude selected desktop application windows from screen capture feeds (OBS Studio, Discord, Medal) in real time without disrupting local monitor display.
 * Zero perceived latency using a lightweight dynamic link library and sub-30 MB memory consumption.
 
+### [vencord-ytm-player](https://github.com/raghavatgit/vencord-ytm-player)
+* **Stack:** TypeScript, React, Webpack AST Patching, Discord RPC, CSS Containment
+* Persistent YouTube Music companion mini-player and Discord Rich Presence integration for Vencord.
+* Injects into Discord's native Webpack module tree with zero-lag optimistic state replication and companion daemon recovery.
+
 ### [ContactMe](https://github.com/raghavatgit/ContactMe)
 * **Stack:** Vanilla JavaScript, CSS3 3D Transforms, Firebase Hosting
 * Interactive 3D spatial web portal.
@@ -52,9 +57,12 @@ Undergraduate in Computer Science at South Asian University ('29)
 | Project | Environment | Architecture Focus | Deployment |
 | :--- | :--- | :--- | :--- |
 | **StreamShield** | Windows 10/11 Desktop | Rust, Tauri, WinAPI DLL, Process Isolation | [Repository](https://github.com/raghavatgit/StreamShield) |
+| **vencord-ytm-player** | Desktop Client Extension | TypeScript, Webpack AST Patching, Discord RPC | [Repository](https://github.com/raghavatgit/vencord-ytm-player) |
 | **ContactMe** | Production Edge Web | Vanilla JS, Real-Time CSS 3D Matrix Math | [contactraghav.web.app](https://contactraghav.web.app) |
 | **Zenflow-3D** | Experimental Spatial UI | CSS3 Perspective Hierarchies | [Repository](https://github.com/raghavatgit/Zenflow-3D) |
 | **Zenflow** | Distraction-Free Web | Lightweight Pomodoro and Focus Engine | [Repository](https://github.com/raghavatgit/Zenflow) |
+| **FoodStaticWebs** | Static Culinary Web | Modern Responsive Layouts & Menus | [Repository](https://github.com/raghavatgit/FoodStaticWebs) |
+| **random-tech-blog** | Clean Web Publishing | Minimalist Typographic Template | [Repository](https://github.com/raghavatgit/random-tech-blog) |
 | **TIL Knowledge Base** | Technical Documentation | Systems, IoT, WebGL, and Cloud Insights | [Repository](https://github.com/raghavatgit/til) |
 | **DSA Patterns** | Algorithms & Complexity | Idiomatic Rust and TypeScript Implementations | [Repository](https://github.com/raghavatgit/dsa-patterns) |
-| **Dotfiles** | Environment Tooling | PowerShell Profiles, Git Aliases, Terminal Themes | [Repository](https://github.com/raghavatgit/dotfiles) |
+| **Dotfiles** | Environment Tooling | PowerShell Profiles, Git Aliases, Diagnostics | [Repository](https://github.com/raghavatgit/dotfiles) |
