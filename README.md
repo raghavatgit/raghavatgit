@@ -64,5 +64,5 @@ Undergraduate in Computer Science at South Asian University ('29)
 | **FoodStaticWebs** | Static Culinary Web | Modern Responsive Layouts & Menus | [Repository](https://github.com/raghavatgit/FoodStaticWebs) |
 | **random-tech-blog** | Clean Web Publishing | Minimalist Typographic Template | [Repository](https://github.com/raghavatgit/random-tech-blog) |
 | **TIL Knowledge Base** | Technical Documentation | Systems, IoT, WebGL, and Cloud Insights | [Repository](https://github.com/raghavatgit/til) |
-| **DSA Patterns** | Algorithms & Complexity | Idiomatic Rust and TypeScript Implementations | [Repository](https://github.com/raghavatgit/dsa-patterns) |
+| **DSA Patterns** | Algorithms & Complexity | LRU Cache, Trees, Graphs, Kadane, Tries in Rust & TS | [Repository](https://github.com/raghavatgit/dsa-patterns) |
 | **Dotfiles** | Environment Tooling | PowerShell Profiles, Git Aliases, Diagnostics | [Repository](https://github.com/raghavatgit/dotfiles) |
