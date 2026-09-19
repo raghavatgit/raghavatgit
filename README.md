@@ -16,8 +16,8 @@ Computer Science Undergraduate at South Asian University. Focused on systems pro
 ### Open Source Projects
 
 - **[StreamShield](https://github.com/raghavatgit/StreamShield)**: Per-app stream privacy manager for Windows masking sensitive applications from capture pipelines via WinAPI hooking.
-- **[dsa-patterns](https://github.com/raghavatgit/dsa-patterns)**: Curated repository of 35+ optimal algorithmic problem solutions in Rust and TypeScript with formal complexity analyses and test harnesses.
-- **[til](https://github.com/raghavatgit/til)**: In-depth engineering notes on distributed consensus (Raft), memory fences, LSM write amplification, and eBPF kernel telemetry.
+- **[dsa-patterns](https://github.com/raghavatgit/dsa-patterns)**: Curated repository of 55+ optimal algorithmic problem solutions in Rust and TypeScript with formal complexity analyses and test harnesses.
+- **[til](https://github.com/raghavatgit/til)**: In-depth engineering notes on distributed consensus (Raft, CRDTs), memory fences, LSM write amplification, and eBPF kernel telemetry.
 - **[vencord-ytm-player](https://github.com/raghavatgit/vencord-ytm-player)**: YouTube Music companion player with logarithmic audio curves, resilient WebSocket reconnection, and MediaSession integration.
 - **[Zenflow](https://github.com/raghavatgit/Zenflow)** / **[Zenflow-3D](https://github.com/raghavatgit/Zenflow-3D)**: Deep focus spatial dashboard demonstrated at ACM Tech Symposium.
 - **[dotfiles](https://github.com/raghavatgit/dotfiles)**: Developer environment automation, PowerShell system hardware telemetry, and memory footprint analyzers.
