@@ -1,27 +1,27 @@
 # Raghav Goyal
 
-Computer Science Undergraduate at South Asian University. Focused on Systems Engineering, Linux Kernel Architecture, Exploit Mitigation, and Algorithmic Problem Solving.
-
-- GitHub: [@raghavatgit](https://github.com/raghavatgit)
-- Email: [goyalraghav1289@gmail.com](mailto:goyalraghav1289@gmail.com)
-- LinkedIn: [in/raghav-goyal-linkd](https://www.linkedin.com/in/raghav-goyal-linkd)
+Computer Science Undergraduate at South Asian University. Focused on systems programming, high-performance web architecture, compiler optimizations, and algorithmic problem solving.
 
 ---
 
-### Core Technical Focus
+### Core Focus & Engineering Specialties
 
-- **Systems & Kernel Engineering**: Linux `io_uring`, eBPF XDP zero-copy networking, NUMA memory topologies, cache coherency (MESI), and lock-free SPSC concurrency.
-- **Low-Level Security & Anti-Tamper**: Windows process mitigation policies (`SetProcessMitigationPolicy`), hardware breakpoint detection (`Dr0-Dr3, Dr7`), PEB validation, and Section Hashing.
-- **Algorithms & Data Structures**: 85+ production-grade algorithmic implementations across C, C++, Rust, and Python, spanning DAG topological sorting, Monotonic Stacks, Fenwick/Segment Trees, and Dynamic Programming.
+- **Systems & Performance**: Linux kernel primitives (`epoll`, `io_uring`, `splice`, `eBPF`), lock-free synchronization, memory ordering models (x86 TSO vs ARM weakly ordered), and cache-conscious data structures.
+- **Algorithms & Complexity**: Advanced dynamic programming, monotonic data structures, network flows, segment trees, binary lifting, and priority queue graph search.
+- **Client Security & Anti-Hooking**: Win32 PE structure validation, Import Address Table (IAT) hook detection, Vectored Exception Handling (VEH) integrity, and debug register protection.
+- **Full-Stack & Cloud Architecture**: Zero-lag asynchronous WebSockets, Chromium MediaSession bridges, three-tier state synchronization, and reactive spatial WebGL shaders.
 
 ---
 
-### Active Projects
+### Open Source Projects
 
-| Project | Description | Technology Stack |
-| :--- | :--- | :--- |
-| [`dsa-patterns`](https://github.com/raghavatgit/dsa-patterns) | Comprehensive algorithmic pattern library with formal bounds and test harnesses | C++, Rust, Python, C |
-| [`StreamShield`](https://github.com/raghavatgit/StreamShield) | Native Windows exploit mitigation and anti-tamper security engine | C++, Win32 API, NTDLL |
-| [`til`](https://github.com/raghavatgit/til) | Deep-dive technical knowledgebase on distributed systems, databases, and OS | Markdown, Systems Architecture |
-| [`vencord-ytm-player`](https://github.com/raghavatgit/vencord-ytm-player) | High-performance YouTube Music audio integration with LUFS normalization | TypeScript, Web Audio API |
-| [`Zenflow-3D`](https://github.com/raghavatgit/Zenflow-3D) | WebGL procedural 3D ambient visualizer and spatial audio engine | Three.js, WebGL, Web Audio |
+- **[StreamShield](https://github.com/raghavatgit/StreamShield)**: Per-app stream privacy manager for Windows masking sensitive applications from capture pipelines via WinAPI hooking.
+- **[dsa-patterns](https://github.com/raghavatgit/dsa-patterns)**: Curated repository of 65+ optimal algorithmic problem solutions in Rust and TypeScript with formal complexity analyses and test harnesses.
+- **[til](https://github.com/raghavatgit/til)**: In-depth engineering notes on distributed consensus (Raft, CRDTs, Redlock), memory fences, LSM write amplification, and eBPF kernel telemetry.
+- **[vencord-ytm-player](https://github.com/raghavatgit/vencord-ytm-player)**: YouTube Music companion player with logarithmic audio curves, resilient WebSocket reconnection, and MediaSession integration.
+- **[Zenflow](https://github.com/raghavatgit/Zenflow)** / **[Zenflow-3D](https://github.com/raghavatgit/Zenflow-3D)**: Deep focus spatial dashboard demonstrated at ACM Tech Symposium.
+- **[dotfiles](https://github.com/raghavatgit/dotfiles)**: Developer environment automation, PowerShell system hardware telemetry, and memory footprint analyzers.
+
+---
+
+*Contact: [LinkedIn](https://linkedin.com/in/raghav-goyal-linkd) | [GitHub](https://github.com/raghavatgit)*
