@@ -1,94 +1,90 @@
-<svg width="860" height="230" viewBox="0 0 860 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="200" viewBox="0 0 860 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="860" y2="230" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#070a12" />
-      <stop offset="45%" stop-color="#0b0f19" />
-      <stop offset="100%" stop-color="#111624" />
+    <!-- Card Background -->
+    <linearGradient id="cardBg" x1="0" y1="0" x2="860" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0d16" />
+      <stop offset="60%" stop-color="#0f1422" />
+      <stop offset="100%" stop-color="#141a2c" />
     </linearGradient>
 
-    <!-- Glowing Top Rim Stroke -->
-    <linearGradient id="strokeGrad" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.85" />
-      <stop offset="35%" stop-color="#58a6ff" stop-opacity="0.6" />
-      <stop offset="70%" stop-color="#bc8cff" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#39d353" stop-opacity="0.85" />
+    <!-- Top Accent Rim Line -->
+    <linearGradient id="rimGrad" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0.9" />
     </linearGradient>
 
     <!-- Title Gradient -->
-    <linearGradient id="titleGrad" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#58a6ff" />
-      <stop offset="40%" stop-color="#bc8cff" />
-      <stop offset="85%" stop-color="#39d353" />
-      <stop offset="100%" stop-color="#00f5ff" />
+    <linearGradient id="nameGrad" x1="32" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d0d7de" />
     </linearGradient>
-
-    <!-- Architectural Blueprint Grid -->
-    <pattern id="blueprintGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#30363d" stroke-width="0.75" stroke-opacity="0.35" />
-      <circle cx="24" cy="24" r="0.8" fill="#58a6ff" opacity="0.3" />
-    </pattern>
   </defs>
 
-  <!-- Container -->
-  <rect x="1" y="1" width="858" height="228" rx="8" fill="url(#bgGrad)" stroke="url(#strokeGrad)" stroke-width="1.5" />
-  <rect x="2" y="2" width="856" height="226" rx="7" fill="url(#blueprintGrid)" />
+  <!-- Base Card Container with Smooth Geometry -->
+  <rect x="1" y="1" width="858" height="198" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1" />
 
-  <!-- Geometric Circuit Accents on Top-Right -->
-  <g opacity="0.35">
-    <path d="M 720 20 L 780 20 L 800 40 L 840 40" stroke="#58a6ff" stroke-width="1" stroke-dasharray="3 3" fill="none" />
-    <path d="M 690 35 L 740 35 L 760 55 L 830 55" stroke="#bc8cff" stroke-width="1" fill="none" />
-    <circle cx="840" cy="40" r="2.5" fill="#58a6ff" />
-    <circle cx="830" cy="55" r="2.5" fill="#bc8cff" />
-    <rect x="735" y="8" width="105" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-    <text x="742" y="21" fill="#7ee787" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="9" font-weight="600">SYS: ACTIVE [OK]</text>
+  <!-- Crisp 1.5px Top Accent Glow Bar -->
+  <rect x="1" y="1" width="858" height="2.5" rx="1" fill="url(#rimGrad)" />
+
+  <!-- Name Headline -->
+  <text x="36" y="52" fill="url(#nameGrad)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.02em">RAGHAV GOYAL</text>
+
+  <!-- Animated Role Text (Smooth 3-Phase Dissolve Loop) -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+    <!-- Phase 1: Aspiring Software Engineer -->
+    <text x="36" y="80" fill="#58a6ff">
+      Aspiring Software Engineer
+      <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.27;0.33;0.94;0.98;1" dur="7.5s" repeatCount="indefinite" />
+    </text>
+
+    <!-- Phase 2: Full-Stack Web Designer -->
+    <text x="36" y="80" fill="#3fb950" opacity="0">
+      Freelance Full-Stack Web Designer
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.31;0.36;0.60;0.66;1" dur="7.5s" repeatCount="indefinite" />
+    </text>
+
+    <!-- Phase 3: Native Desktop App Developer -->
+    <text x="36" y="80" fill="#bc8cff" opacity="0">
+      Native Desktop Application Developer
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.64;0.69;0.93;0.97;1" dur="7.5s" repeatCount="indefinite" />
+    </text>
   </g>
 
-  <!-- Terminal Top Bar -->
-  <circle cx="28" cy="24" r="5" fill="#f85149" />
-  <circle cx="44" cy="24" r="5" fill="#e3b341" />
-  <circle cx="60" cy="24" r="5" fill="#3fb950" />
-  <text x="82" y="28" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">raghav@portfolio:~ (South Asian University '29)</text>
+  <!-- Descriptive Core Statement -->
+  <text x="36" y="112" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400">Crafting responsive web architectures, lightweight native utilities, and high-performance digital experiences.</text>
 
-  <!-- Terminal Command Prompt -->
-  <text x="28" y="66" fill="#7ee787" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" font-weight="600">$ raghav --status --freelance --architecture</text>
+  <!-- Bottom Badges / Status Bar -->
+  <g transform="translate(36, 142)">
+    <!-- Freelance Badge with Live Pulsing Radar -->
+    <g>
+      <rect x="0" y="0" width="176" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="15" cy="14" r="5" fill="#3fb950" opacity="0.4">
+        <animate attributeName="r" values="3.5;7.5;3.5" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="15" cy="14" r="3.5" fill="#3fb950">
+        <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="29" y="18" fill="#7ee787" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Available for Freelance</text>
+    </g>
 
-  <!-- Main Headline -->
-  <text x="28" y="107" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="31" font-weight="800" letter-spacing="-0.02em">RAGHAV GOYAL</text>
+    <!-- Domain 1 -->
+    <g transform="translate(186, 0)">
+      <rect x="0" y="0" width="135" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="18" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">crag.web.app</text>
+    </g>
 
-  <!-- Subheadline -->
-  <text x="28" y="137" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Aspiring Software Engineer · Freelance App Developer &amp; Full-Stack Web Designer</text>
+    <!-- Domain 2 -->
+    <g transform="translate(331, 0)">
+      <rect x="0" y="0" width="180" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="18" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">contactraghav.web.app</text>
+    </g>
 
-  <!-- Core Focus Details -->
-  <text x="28" y="165" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400">Crafting responsive web architectures, lightweight native desktop utilities, and high-performance user interfaces.</text>
-
-  <!-- Status Badges with Pulsing Sonar Beacon -->
-  <g transform="translate(28, 186)">
-    <rect x="0" y="0" width="176" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <!-- Outer Radar Pulse Wave -->
-    <circle cx="14" cy="13" r="5" fill="#3fb950" opacity="0.4">
-      <animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.45;0;0.45" dur="2.2s" repeatCount="indefinite" />
-    </circle>
-    <!-- Core Status Dot -->
-    <circle cx="14" cy="13" r="3.5" fill="#3fb950">
-      <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite" />
-    </circle>
-    <text x="28" y="17" fill="#7ee787" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600">Available for Freelance</text>
-  </g>
-
-  <g transform="translate(216, 186)">
-    <rect x="0" y="0" width="145" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="14" y="17" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="500">crag.web.app</text>
-  </g>
-
-  <g transform="translate(373, 186)">
-    <rect x="0" y="0" width="190" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="14" y="17" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="500">contactraghav.web.app</text>
-  </g>
-
-  <g transform="translate(575, 186)">
-    <rect x="0" y="0" width="130" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="12" y="17" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="500">New Delhi, India</text>
+    <!-- Location -->
+    <g transform="translate(521, 0)">
+      <rect x="0" y="0" width="130" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="18" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">New Delhi, India</text>
+    </g>
   </g>
 </svg>

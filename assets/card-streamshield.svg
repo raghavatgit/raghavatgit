@@ -1,64 +1,70 @@
-<svg width="410" height="210" viewBox="0 0 410 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="415" height="195" viewBox="0 0 415 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="cardBg2" x1="0" y1="0" x2="410" y2="210" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#090d16" />
-      <stop offset="100%" stop-color="#121826" />
+    <!-- Background Gradient -->
+    <linearGradient id="sBg2" x1="0" y1="0" x2="415" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d111a" />
+      <stop offset="100%" stop-color="#141a27" />
     </linearGradient>
-    <linearGradient id="glowBorder2" x1="0" y1="0" x2="410" y2="0" gradientUnits="userSpaceOnUse">
+
+    <!-- Top Border Highlight -->
+    <linearGradient id="sRim2" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.4" />
     </linearGradient>
-    <pattern id="cardGrid2" width="16" height="16" patternUnits="userSpaceOnUse">
-      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#21262d" stroke-width="0.5" stroke-opacity="0.6" />
-    </pattern>
   </defs>
 
   <!-- Container -->
-  <rect x="1" y="1" width="408" height="208" rx="8" fill="url(#cardBg2)" stroke="url(#glowBorder2)" stroke-width="1.2" />
-  <rect x="2" y="2" width="406" height="206" rx="7" fill="url(#cardGrid2)" />
+  <rect x="1" y="1" width="413" height="193" rx="10" fill="url(#sBg2)" stroke="#30363d" stroke-width="1" />
+  <rect x="1" y="1" width="413" height="2" rx="1" fill="url(#sRim2)" />
 
-  <!-- Top Header Tag -->
-  <rect x="16" y="14" width="145" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-  <circle cx="26" cy="24" r="3" fill="#bc8cff" />
-  <text x="34" y="28" fill="#bc8cff" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">NATIVE DESKTOP</text>
+  <!-- Top Category and Status -->
+  <g transform="translate(20, 16)">
+    <rect x="0" y="0" width="130" height="22" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <circle cx="11" cy="11" r="3" fill="#bc8cff" />
+    <text x="20" y="15" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="0.04em">NATIVE DESKTOP</text>
 
-  <rect x="290" y="14" width="104" height="20" rx="3" fill="#161b22" stroke="#bc8cff" stroke-width="0.8" />
-  <text x="298" y="28" fill="#bc8cff" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">SYSTEM HOOK ↗</text>
-
-  <!-- Title -->
-  <text x="16" y="58" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700">StreamShield · Privacy Isolation</text>
-  <text x="16" y="76" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="400">Masks sensitive Windows apps from OBS/Discord capture in real time.</text>
-
-  <!-- Pipeline Mockup Diagram -->
-  <g transform="translate(18, 94)">
-    <!-- App Source Box -->
-    <rect x="0" y="8" width="90" height="42" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="12" y="26" fill="#f0f6fc" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600">App HWND</text>
-    <text x="12" y="40" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="8">Win32 API</text>
-
-    <!-- Arrow 1 -->
-    <line x1="90" y1="29" x2="130" y2="29" stroke="#bc8cff" stroke-width="1.2" stroke-dasharray="2 2" />
-    <polygon points="130,29 125,26 125,32" fill="#bc8cff" />
-
-    <!-- Tauri/Rust Core Filter Box -->
-    <rect x="135" y="4" width="115" height="50" rx="4" fill="#1c2128" stroke="#bc8cff" stroke-width="1.2" />
-    <text x="145" y="23" fill="#bc8cff" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600">Rust Core Filter</text>
-    <text x="145" y="37" fill="#39d353" font-family="'JetBrains Mono', monospace" font-size="8">WDA_EXCLUDEFROMCAPTURE</text>
-    <text x="145" y="48" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="7">Sub-25MB RAM</text>
-
-    <!-- Arrow 2 -->
-    <line x1="250" y1="29" x2="285" y2="29" stroke="#39d353" stroke-width="1.2" />
-    <polygon points="285,29 280,26 280,32" fill="#39d353" />
-
-    <!-- Protected Stream Output Box -->
-    <rect x="290" y="8" width="85" height="42" rx="4" fill="#161b22" stroke="#39d353" stroke-width="1" />
-    <text x="300" y="26" fill="#39d353" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600">OBS Capture</text>
-    <text x="300" y="40" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="8">[Masked Clean]</text>
+    <!-- Right Protection Pill -->
+    <g transform="translate(275, 0)">
+      <rect x="0" y="0" width="100" height="22" rx="5" fill="#161b22" stroke="#bc8cff" stroke-width="0.8" />
+      <circle cx="11" cy="11" r="3" fill="#bc8cff" />
+      <text x="20" y="15" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">WIN32 HOOK</text>
+    </g>
   </g>
 
-  <!-- Technical Specs Pill Box -->
-  <g transform="translate(16, 172)">
-    <rect x="0" y="0" width="378" height="24" rx="4" fill="#0d1117" stroke="#21262d" stroke-width="1" />
-    <text x="10" y="16" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="10">Stack: Rust | Tauri | Win32 API | React | IPC Pipe</text>
+  <!-- Title -->
+  <text x="20" y="66" fill="#f0f6fc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">StreamShield</text>
+
+  <!-- Description -->
+  <text x="20" y="90" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">Lightweight Windows desktop utility isolating sensitive application windows</text>
+  <text x="20" y="108" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">from OBS, Discord, and screen recording pipelines in real time.</text>
+
+  <!-- Clean Visual Metric Pills -->
+  <g transform="translate(20, 126)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="55" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Rust</text>
+
+    <!-- Pill 2 -->
+    <g transform="translate(63, 0)">
+      <rect x="0" y="0" width="55" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Tauri</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(126, 0)">
+      <rect x="0" y="0" width="85" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Win32 APIs</text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(219, 0)">
+      <rect x="0" y="0" width="95" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Sub-25MB RAM</text>
+    </g>
+  </g>
+
+  <!-- Bottom CTA Bar -->
+  <g transform="translate(20, 160)">
+    <text x="0" y="14" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Inspect Architecture ↗</text>
   </g>
 </svg>
