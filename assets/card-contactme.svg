@@ -1,0 +1,48 @@
+<svg width="410" height="210" viewBox="0 0 410 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg1" x1="0" y1="0" x2="410" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#121826" />
+    </linearGradient>
+    <linearGradient id="glowBorder1" x1="0" y1="0" x2="410" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.8" />
+    </linearGradient>
+    <pattern id="cardGrid1" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#21262d" stroke-width="0.5" stroke-opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="408" height="208" rx="8" fill="url(#cardBg1)" stroke="url(#glowBorder1)" stroke-width="1.2" />
+  <rect x="2" y="2" width="406" height="206" rx="7" fill="url(#cardGrid1)" />
+
+  <!-- Top Header Tag -->
+  <rect x="16" y="14" width="135" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+  <circle cx="26" cy="24" r="3" fill="#58a6ff" />
+  <text x="34" y="28" fill="#58a6ff" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">3D SPATIAL WEB</text>
+
+  <rect x="310" y="14" width="84" height="20" rx="3" fill="#161b22" stroke="#3fb950" stroke-width="0.8" />
+  <text x="318" y="28" fill="#3fb950" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">LIVE MVP ↗</text>
+
+  <!-- Title -->
+  <text x="16" y="58" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700">ContactMe · 3D Spatial Portal</text>
+  <text x="16" y="76" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="400">Pure CSS3 Matrix3D calculations driven by live cursor physics.</text>
+
+  <!-- Mockup Isometric 3D Card Plane -->
+  <g transform="translate(18, 92)">
+    <!-- Perspective background planes -->
+    <polygon points="10,40 140,10 210,35 80,65" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <polygon points="25,48 155,18 225,43 95,73" fill="#1c2128" stroke="#58a6ff" stroke-width="1.2" stroke-opacity="0.7" />
+    <!-- Dynamic vector indicator lines -->
+    <line x1="120" y1="30" x2="170" y2="5" stroke="#7ee787" stroke-width="1" stroke-dasharray="2 2" />
+    <circle cx="170" cy="5" r="3" fill="#7ee787" />
+    <text x="180" y="9" fill="#7ee787" font-family="'JetBrains Mono', monospace" font-size="9">vector: [dx/dt, dy/dt]</text>
+  </g>
+
+  <!-- Technical Specs Pill Box -->
+  <g transform="translate(16, 172)">
+    <rect x="0" y="0" width="378" height="24" rx="4" fill="#0d1117" stroke="#21262d" stroke-width="1" />
+    <text x="10" y="16" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="10">Stack: Vanilla ES6+ | CSS3 Matrix3D | Sub-1ms RAF Loop</text>
+  </g>
+</svg>

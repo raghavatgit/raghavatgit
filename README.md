@@ -5,10 +5,25 @@
 <br />
 
 <div align="center">
-  <a href="https://crag.web.app"><strong>Portfolio</strong></a> &nbsp;|&nbsp;
-  <a href="https://contactraghav.web.app"><strong>3D Contact Portal</strong></a> &nbsp;|&nbsp;
-  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><strong>LinkedIn</strong></a> &nbsp;|&nbsp;
-  <a href="mailto:goyalraghav1289@gmail.com"><strong>Email Inquiries</strong></a>
+  <a href="https://crag.web.app"><img src="assets/btn-portfolio.svg" height="32" alt="Portfolio" /></a>
+  &nbsp;
+  <a href="https://contactraghav.web.app"><img src="assets/btn-contact.svg" height="32" alt="3D Contact Portal" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><img src="assets/btn-linkedin.svg" height="32" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:goyalraghav1289@gmail.com"><img src="assets/btn-email.svg" height="32" alt="Email Inquiries" /></a>
+</div>
+
+<br />
+
+---
+
+### Visual Demonstrations & Systems Architecture
+
+<div align="center">
+  <a href="https://contactraghav.web.app"><img src="assets/card-contactme.svg" width="48%" alt="ContactMe 3D Spatial Portal" /></a>
+  &nbsp;
+  <a href="https://github.com/raghavatgit/StreamShield"><img src="assets/card-streamshield.svg" width="48%" alt="StreamShield Privacy Isolation" /></a>
 </div>
 
 <br />
@@ -19,19 +34,19 @@
 
 ```text
 Raghav Goyal (Core Capabilities)
-├── 1. Full-Stack Web Architecture & Creative Design
+├── 1. Full-Stack Web Architecture & Creative Design [PRODUCTION READY]
 │   ├── Responsive SPAs & PWAs (React, Next.js, Modern CSS3, Vanilla ES6+)
 │   ├── 3D Spatial Interfaces & WebGL (Real-time CSS3 Matrix Math, Canvas)
 │   ├── High-Conversion Landing Pages (Clean Typography, Mobile-First Grids)
 │   └── Modern Web APIs (WebSockets, MediaSession, Web Audio DSP)
 │
-├── 2. Native Desktop & App Development
+├── 2. Native Desktop & App Development [WIN32 / KERNEL]
 │   ├── Cross-Platform Applications (Rust, Tauri, TypeScript)
 │   ├── Windows OS Utilities (Win32 APIs, Desktop Stream Isolation)
-│   ├── Lightweight Footprint Architecture (Sub-30 MB Resident Memory)
+│   ├── Lightweight Footprint Architecture (Sub-25 MB Resident Memory)
 │   └── Audio & System Companion Tools (Custom Webpack Injection, IPC Bridges)
 │
-└── 3. Algorithms & Data Systems
+└── 3. Algorithms & Data Systems [ALGORITHMIC SUITE]
     ├── 100+ Solved Algorithmic Problems (Rust, C++, TypeScript)
     ├── Data Structures & Design Patterns (Trees, Graphs, DSU, Monotonic Stacks)
     ├── Backend & Distributed Storage (Firebase, Google Cloud Platform, Node.js)
@@ -50,15 +65,15 @@ Raghav Goyal (Core Capabilities)
 
 ### Featured Architectures & Client Solutions
 
-| Project | Domain | Stack | Overview | Links |
-| :--- | :--- | :--- | :--- | :--- |
-| **[ContactMe](https://github.com/raghavatgit/ContactMe)** | 3D Spatial Web Portal | Vanilla JavaScript, CSS3 3D Matrix | Interactive personal portal calculating real-time cursor velocity and perspective transforms without third-party graphics engines. | [Live Demo](https://contactraghav.web.app) \| [Code](https://github.com/raghavatgit/ContactMe) |
-| **[StreamShield](https://github.com/raghavatgit/StreamShield)** | Native Windows Desktop | Rust, Tauri, Win32 API, React | Privacy window isolation utility that masks sensitive desktop applications from capture pipelines in real time. | [Repository](https://github.com/raghavatgit/StreamShield) |
-| **[vencord-ytm-player](https://github.com/raghavatgit/vencord-ytm-player)** | Desktop Client Extension | TypeScript, React, Web Audio API | Persistent YouTube Music companion player with logarithmic audio normalization, queue ring buffers, and Discord RPC. | [Repository](https://github.com/raghavatgit/vencord-ytm-player) |
-| **[Zenflow-3D](https://github.com/raghavatgit/Zenflow-3D)** | Kinetic Motion Prototype | JavaScript, CSS3 Perspectives | Deep focus spatial interface implementing multi-layered CSS perspective planes and tactile card physics. | [Repository](https://github.com/raghavatgit/Zenflow-3D) |
-| **[FoodStaticWebs](https://github.com/raghavatgit/FoodStaticWebs)** | Commercial Web Design | HTML5, CSS3 Grid, Responsive | Modern responsive culinary web design templates and digital menus with fluid layouts and high performance. | [Repository](https://github.com/raghavatgit/FoodStaticWebs) |
-| **[dsa-patterns](https://github.com/raghavatgit/dsa-patterns)** | Algorithms & Complexity | Rust, C++, TypeScript | Curated library of 100+ algorithmic problem solutions with formal complexity proofs and unit test harnesses. | [Repository](https://github.com/raghavatgit/dsa-patterns) |
-| **[til](https://github.com/raghavatgit/til)** | Engineering Knowledge Base | Systems, Databases, Networking | Architectural notes on distributed systems, databases, operating systems, and network protocols. | [Repository](https://github.com/raghavatgit/til) |
+| Project | Status | Domain | Stack | Overview | Links |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[ContactMe](https://github.com/raghavatgit/ContactMe)** | `[Live MVP]` | 3D Spatial Web Portal | Vanilla JavaScript, CSS3 3D Matrix | Interactive personal portal calculating real-time cursor velocity and perspective transforms without third-party graphics engines. | [Launch 3D Portal ->](https://contactraghav.web.app) \| [Code](https://github.com/raghavatgit/ContactMe) |
+| **[StreamShield](https://github.com/raghavatgit/StreamShield)** | `[Native Utility]` | Native Windows Desktop | Rust, Tauri, Win32 API, React | Privacy window isolation utility that masks sensitive desktop applications from capture pipelines in real time. | [Inspect Architecture ->](https://github.com/raghavatgit/StreamShield) |
+| **[vencord-ytm-player](https://github.com/raghavatgit/vencord-ytm-player)** | `[Desktop Client]` | Desktop Client Extension | TypeScript, React, Web Audio API | Persistent YouTube Music companion player with logarithmic audio normalization, queue ring buffers, and Discord RPC. | [Inspect Client ->](https://github.com/raghavatgit/vencord-ytm-player) |
+| **[Zenflow-3D](https://github.com/raghavatgit/Zenflow-3D)** | `[Spatial Prototype]` | Kinetic Motion Prototype | JavaScript, CSS3 Perspectives | Deep focus spatial interface implementing multi-layered CSS perspective planes and tactile card physics. | [Inspect Prototype ->](https://github.com/raghavatgit/Zenflow-3D) |
+| **[FoodStaticWebs](https://github.com/raghavatgit/FoodStaticWebs)** | `[Commercial Web]` | Commercial Web Design | HTML5, CSS3 Grid, Responsive | Modern responsive culinary web design templates and digital menus with fluid layouts and high performance. | [Inspect Layouts ->](https://github.com/raghavatgit/FoodStaticWebs) |
+| **[dsa-patterns](https://github.com/raghavatgit/dsa-patterns)** | `[100+ Solutions]` | Algorithms & Complexity | Rust, C++, TypeScript | Curated library of 100+ algorithmic problem solutions with formal complexity proofs and unit test harnesses. | [Explore Problem Suite ->](https://github.com/raghavatgit/dsa-patterns) |
+| **[til](https://github.com/raghavatgit/til)** | `[110+ Notes]` | Engineering Knowledge Base | Systems, Databases, Networking | Architectural notes on distributed systems, databases, operating systems, and network protocols. | [Browse System Notes ->](https://github.com/raghavatgit/til) |
 
 ---
 
