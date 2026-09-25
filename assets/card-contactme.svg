@@ -1,44 +1,72 @@
 <svg width="415" height="195" viewBox="0 0 415 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="cBg1" x1="0" y1="0" x2="415" y2="195" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0d111a" />
-      <stop offset="100%" stop-color="#141a27" />
+    <linearGradient id="cBg" x1="0" y1="0" x2="415" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0e18" />
+      <stop offset="100%" stop-color="#121828" />
     </linearGradient>
 
-    <!-- Top Border Highlight -->
-    <linearGradient id="cRim1" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#3fb950" stop-opacity="0.4" />
+    <!-- Moving Rim Light -->
+    <linearGradient id="cRim" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#00f5ff;#39d353;#58a6ff" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#39d353">
+        <animate attributeName="stop-color" values="#39d353;#58a6ff;#00f5ff;#39d353" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Laser Scanner Gradient -->
+    <linearGradient id="laserScan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f5ff" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
     </linearGradient>
   </defs>
 
   <!-- Container -->
-  <rect x="1" y="1" width="413" height="193" rx="10" fill="url(#cBg1)" stroke="#30363d" stroke-width="1" />
-  <rect x="1" y="1" width="413" height="2" rx="1" fill="url(#cRim1)" />
+  <rect x="1" y="1" width="413" height="193" rx="10" fill="url(#cBg)" stroke="#30363d" stroke-width="1" />
+  <rect x="1" y="1" width="413" height="2.5" rx="1" fill="url(#cRim)" />
 
-  <!-- Top Category and Status -->
+  <!-- Animated Vertical Laser Scanner Sweep -->
+  <rect x="2" y="2" width="411" height="30" fill="url(#laserScan)">
+    <animate attributeName="y" values="2;160;2" dur="3.5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Top Category and Animated Status -->
   <g transform="translate(20, 16)">
     <rect x="0" y="0" width="125" height="22" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
     <circle cx="11" cy="11" r="3" fill="#58a6ff" />
     <text x="20" y="15" fill="#58a6ff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="0.04em">3D SPATIAL WEB</text>
 
-    <!-- Right Live Pill -->
+    <!-- Right Live Pulse Beacon -->
     <g transform="translate(300, 0)">
       <rect x="0" y="0" width="75" height="22" rx="5" fill="#161b22" stroke="#3fb950" stroke-width="0.8" />
-      <circle cx="11" cy="11" r="3" fill="#3fb950">
-        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+      <circle cx="11" cy="11" r="5" fill="#3fb950" opacity="0.5">
+        <animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite" />
       </circle>
-      <text x="20" y="15" fill="#3fb950" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">LIVE MVP</text>
+      <circle cx="11" cy="11" r="3" fill="#3fb950" />
+      <text x="20" y="15" fill="#3fb950" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">LIVE MVP</text>
     </g>
   </g>
 
-  <!-- Title -->
+  <!-- Title with Hover-Like Glow -->
   <text x="20" y="66" fill="#f0f6fc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">ContactMe</text>
 
   <!-- Description -->
   <text x="20" y="90" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">Interactive personal 3D web portal featuring real-time CSS3 matrix</text>
   <text x="20" y="108" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">perspective transforms driven by cursor velocity and physics.</text>
+
+  <!-- Animated Oscillating 3D Coordinate Plane Mockup -->
+  <g transform="translate(315, 62)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-4 35 25; 6 35 25; -4 35 25" dur="4s" repeatCount="indefinite" />
+      <polygon points="0,20 40,0 70,18 30,38" fill="#161b22" stroke="#58a6ff" stroke-width="1.2" />
+      <circle cx="35" cy="18" r="2.5" fill="#00f5ff" />
+      <line x1="35" y1="18" x2="55" y2="6" stroke="#39d353" stroke-width="1" stroke-dasharray="2 2" />
+    </g>
+  </g>
 
   <!-- Clean Visual Metric Pills -->
   <g transform="translate(20, 126)">
@@ -55,12 +83,18 @@
     <!-- Pill 3 -->
     <g transform="translate(206, 0)">
       <rect x="0" y="0" width="95" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-      <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Pure Browser</text>
+      <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Sub-1ms RAF</text>
     </g>
   </g>
 
-  <!-- Bottom CTA Bar -->
+  <!-- Bottom CTA Bar with Animated Arrow -->
   <g transform="translate(20, 160)">
-    <text x="0" y="14" fill="#58a6ff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Launch Interactive Portal ↗</text>
+    <text x="0" y="14" fill="#58a6ff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Launch Interactive Portal</text>
+    <g transform="translate(148, 14)">
+      <text x="0" y="0" fill="#58a6ff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">
+        ↗
+        <animateTransform attributeName="transform" type="translate" values="0,0; 2,-2; 0,0" dur="1.5s" repeatCount="indefinite" />
+      </text>
+    </g>
   </g>
 </svg>

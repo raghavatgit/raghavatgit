@@ -1,42 +1,78 @@
 <svg width="415" height="195" viewBox="0 0 415 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="sBg2" x1="0" y1="0" x2="415" y2="195" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0d111a" />
-      <stop offset="100%" stop-color="#141a27" />
+    <linearGradient id="sBg" x1="0" y1="0" x2="415" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0e18" />
+      <stop offset="100%" stop-color="#121828" />
     </linearGradient>
 
-    <!-- Top Border Highlight -->
-    <linearGradient id="sRim2" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.4" />
+    <!-- Moving Rim Light -->
+    <linearGradient id="sRim" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bc8cff">
+        <animate attributeName="stop-color" values="#bc8cff;#58a6ff;#00f5ff;#bc8cff" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#00f5ff;#bc8cff;#58a6ff" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Laser Scanner Gradient -->
+    <linearGradient id="laserScan2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#bc8cff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0" />
     </linearGradient>
   </defs>
 
   <!-- Container -->
-  <rect x="1" y="1" width="413" height="193" rx="10" fill="url(#sBg2)" stroke="#30363d" stroke-width="1" />
-  <rect x="1" y="1" width="413" height="2" rx="1" fill="url(#sRim2)" />
+  <rect x="1" y="1" width="413" height="193" rx="10" fill="url(#sBg)" stroke="#30363d" stroke-width="1" />
+  <rect x="1" y="1" width="413" height="2.5" rx="1" fill="url(#sRim)" />
 
-  <!-- Top Category and Status -->
+  <!-- Animated Vertical Laser Scanner Sweep -->
+  <rect x="2" y="2" width="411" height="30" fill="url(#laserScan2)">
+    <animate attributeName="y" values="160;2;160" dur="3.5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Top Category and Animated Status -->
   <g transform="translate(20, 16)">
     <rect x="0" y="0" width="130" height="22" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
     <circle cx="11" cy="11" r="3" fill="#bc8cff" />
     <text x="20" y="15" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="0.04em">NATIVE DESKTOP</text>
 
-    <!-- Right Protection Pill -->
+    <!-- Right Protection Beacon -->
     <g transform="translate(275, 0)">
       <rect x="0" y="0" width="100" height="22" rx="5" fill="#161b22" stroke="#bc8cff" stroke-width="0.8" />
+      <circle cx="11" cy="11" r="5" fill="#bc8cff" opacity="0.5">
+        <animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite" />
+      </circle>
       <circle cx="11" cy="11" r="3" fill="#bc8cff" />
-      <text x="20" y="15" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">WIN32 HOOK</text>
+      <text x="20" y="15" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">WIN32 HOOK</text>
     </g>
   </g>
 
-  <!-- Title -->
+  <!-- Title with Hover-Like Glow -->
   <text x="20" y="66" fill="#f0f6fc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">StreamShield</text>
 
   <!-- Description -->
   <text x="20" y="90" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">Lightweight Windows desktop utility isolating sensitive application windows</text>
   <text x="20" y="108" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">from OBS, Discord, and screen recording pipelines in real time.</text>
+
+  <!-- Animated Data Packet Pipeline -->
+  <g transform="translate(295, 66)">
+    <!-- Pipeline Line -->
+    <line x1="0" y1="12" x2="80" y2="12" stroke="#30363d" stroke-width="2" stroke-dasharray="3 3" />
+    <!-- Traveling Data Packet 1 -->
+    <circle cx="0" cy="12" r="3.5" fill="#bc8cff">
+      <animate attributeName="cx" values="0;80" dur="1.6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite" />
+    </circle>
+    <!-- Traveling Data Packet 2 -->
+    <circle cx="0" cy="12" r="2.5" fill="#39d353">
+      <animate attributeName="cx" values="0;80" dur="1.6s" begin="0.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" begin="0.8s" repeatCount="indefinite" />
+    </circle>
+  </g>
 
   <!-- Clean Visual Metric Pills -->
   <g transform="translate(20, 126)">
@@ -63,8 +99,14 @@
     </g>
   </g>
 
-  <!-- Bottom CTA Bar -->
+  <!-- Bottom CTA Bar with Animated Arrow -->
   <g transform="translate(20, 160)">
-    <text x="0" y="14" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Inspect Architecture ↗</text>
+    <text x="0" y="14" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Inspect Architecture</text>
+    <g transform="translate(126, 14)">
+      <text x="0" y="0" fill="#bc8cff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">
+        ↗
+        <animateTransform attributeName="transform" type="translate" values="0,0; 2,-2; 0,0" dur="1.5s" repeatCount="indefinite" />
+      </text>
+    </g>
   </g>
 </svg>
