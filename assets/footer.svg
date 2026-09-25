@@ -1,69 +1,44 @@
-<svg width="860" height="110" viewBox="0 0 860 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="96" viewBox="0 0 860 96" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="fBg" x1="0" y1="0" x2="860" y2="110" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#080c16" />
-      <stop offset="50%" stop-color="#0e1422" />
-      <stop offset="100%" stop-color="#141c2e" />
+    <!-- Deep Obsidian Surface -->
+    <linearGradient id="fBg" x1="0" y1="0" x2="860" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="50%" stop-color="#0d111b" />
+      <stop offset="100%" stop-color="#121726" />
     </linearGradient>
 
-    <!-- Animated Wave Gradient 1 -->
-    <linearGradient id="waveGrad1" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.35" />
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.35" />
+    <!-- Subtle Moving Accent Top Rim -->
+    <linearGradient id="fRim" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5e6ad2" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#5e6ad2;#38bdf8;#818cf8;#5e6ad2" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.6">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#5e6ad2;#38bdf8" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#818cf8;#5e6ad2;#38bdf8;#818cf8" dur="10s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
 
-    <!-- Animated Wave Gradient 2 -->
-    <linearGradient id="waveGrad2" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#39d353" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#00f5ff" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#39d353" stop-opacity="0.3" />
-    </linearGradient>
-
-    <!-- Top Laser Glow Rim -->
-    <linearGradient id="fLaser" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#58a6ff">
-        <animate attributeName="stop-color" values="#58a6ff;#bc8cff;#39d353;#58a6ff" dur="5s" repeatCount="indefinite" />
+    <!-- Subtle Ambient Glow -->
+    <radialGradient id="fAmbientGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(430, 48) rotate(0) scale(380, 70)">
+      <stop offset="0%" stop-color="#5e6ad2" stop-opacity="0.12">
+        <animate attributeName="stop-opacity" values="0.12;0.04;0.16;0.12" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="50%" stop-color="#bc8cff">
-        <animate attributeName="stop-color" values="#bc8cff;#39d353;#58a6ff;#bc8cff" dur="5s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#39d353">
-        <animate attributeName="stop-color" values="#39d353;#58a6ff;#bc8cff;#39d353" dur="5s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
+      <stop offset="100%" stop-color="#08090d" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
-  <!-- Container -->
-  <rect x="1" y="1" width="858" height="108" rx="10" fill="url(#fBg)" stroke="#30363d" stroke-width="1" />
-  <rect x="1" y="1" width="858" height="2.5" rx="1" fill="url(#fLaser)" />
-
-  <!-- Animated Wave Layer 1 -->
-  <path fill="url(#waveGrad1)">
-    <animate attributeName="d" dur="6s" repeatCount="indefinite"
-      values="
-        M 0 70 Q 215 50 430 70 T 860 70 L 860 110 L 0 110 Z;
-        M 0 70 Q 215 90 430 70 T 860 70 L 860 110 L 0 110 Z;
-        M 0 70 Q 215 50 430 70 T 860 70 L 860 110 L 0 110 Z
-      " />
-  </path>
-
-  <!-- Animated Wave Layer 2 -->
-  <path fill="url(#waveGrad2)">
-    <animate attributeName="d" dur="4.5s" repeatCount="indefinite"
-      values="
-        M 0 80 Q 215 95 430 80 T 860 80 L 860 110 L 0 110 Z;
-        M 0 80 Q 215 65 430 80 T 860 80 L 860 110 L 0 110 Z;
-        M 0 80 Q 215 95 430 80 T 860 80 L 860 110 L 0 110 Z
-      " />
-  </path>
+  <!-- Container Base with Hairline Border -->
+  <rect x="1" y="1" width="858" height="94" rx="10" fill="url(#fBg)" stroke="#22293d" stroke-width="1" />
+  <rect x="2" y="2" width="856" height="92" rx="9" fill="url(#fAmbientGlow)" />
+  <rect x="1" y="1" width="858" height="1.8" rx="1" fill="url(#fRim)" />
 
   <!-- Centered Headline & Status -->
-  <text x="430" y="44" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">
+  <text x="430" y="42" text-anchor="middle" fill="#f7f8f8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700">
     Raghav Goyal · South Asian University '29
   </text>
-  <text x="430" y="68" text-anchor="middle" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+  <text x="430" y="64" text-anchor="middle" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">
     Crafted with clean UI/UX discipline · Open for freelance engineering and contract MVP delivery
   </text>
 </svg>

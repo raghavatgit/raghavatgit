@@ -1,111 +1,103 @@
-<svg width="415" height="195" viewBox="0 0 415 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="415" height="190" viewBox="0 0 415 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="sBg" x1="0" y1="0" x2="415" y2="195" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0a0e18" />
-      <stop offset="100%" stop-color="#121828" />
+    <!-- Deep Obsidian Card Surface -->
+    <linearGradient id="ssBg" x1="0" y1="0" x2="415" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="50%" stop-color="#0d111b" />
+      <stop offset="100%" stop-color="#121726" />
     </linearGradient>
 
-    <!-- Moving Rim Light -->
-    <linearGradient id="sRim" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#bc8cff">
-        <animate attributeName="stop-color" values="#bc8cff;#58a6ff;#00f5ff;#bc8cff" dur="4s" repeatCount="indefinite" />
+    <!-- Subtle Accent Top Rim Highlight -->
+    <linearGradient id="ssRim" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#818cf8;#5e6ad2;#818cf8" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#58a6ff">
-        <animate attributeName="stop-color" values="#58a6ff;#00f5ff;#bc8cff;#58a6ff" dur="4s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#5e6ad2" stop-opacity="0.7">
+        <animate attributeName="stop-color" values="#5e6ad2;#818cf8;#5e6ad2" dur="8s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
-    <!-- Laser Scanner Gradient -->
-    <linearGradient id="laserScan2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0" />
-      <stop offset="50%" stop-color="#bc8cff" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0" />
-    </linearGradient>
+    <!-- Subtle Moving Ambient Radial Glow -->
+    <radialGradient id="ssAmbientGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320, 60) rotate(45) scale(180, 120)">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.14">
+        <animate attributeName="stop-opacity" values="0.14;0.05;0.18;0.14" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#08090d" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
-  <!-- Container -->
-  <rect x="1" y="1" width="413" height="193" rx="10" fill="url(#sBg)" stroke="#30363d" stroke-width="1" />
-  <rect x="1" y="1" width="413" height="2.5" rx="1" fill="url(#sRim)" />
+  <!-- Container Base with Hairline Border -->
+  <rect x="1" y="1" width="413" height="188" rx="10" fill="url(#ssBg)" stroke="#22293d" stroke-width="1" />
 
-  <!-- Animated Vertical Laser Scanner Sweep -->
-  <rect x="2" y="2" width="411" height="30" fill="url(#laserScan2)">
-    <animate attributeName="y" values="160;2;160" dur="3.5s" repeatCount="indefinite" />
-  </rect>
+  <!-- Subtle Moving Ambient Light -->
+  <rect x="2" y="2" width="411" height="186" rx="9" fill="url(#ssAmbientGlow)" />
 
-  <!-- Top Category and Animated Status -->
+  <!-- Subtle Top Rim Gradient -->
+  <rect x="1" y="1" width="413" height="1.8" rx="1" fill="url(#ssRim)" />
+
+  <!-- Header Category & Live Status -->
   <g transform="translate(20, 16)">
-    <rect x="0" y="0" width="130" height="22" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-    <circle cx="11" cy="11" r="3" fill="#bc8cff" />
-    <text x="20" y="15" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="0.04em">NATIVE DESKTOP</text>
+    <rect x="0" y="0" width="130" height="22" rx="5" fill="#111624" stroke="#22293d" stroke-width="0.8" />
+    <circle cx="11" cy="11" r="2.8" fill="#818cf8" />
+    <text x="20" y="15" fill="#a78bfa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="0.04em">NATIVE DESKTOP</text>
 
     <!-- Right Protection Beacon -->
     <g transform="translate(275, 0)">
-      <rect x="0" y="0" width="100" height="22" rx="5" fill="#161b22" stroke="#bc8cff" stroke-width="0.8" />
-      <circle cx="11" cy="11" r="5" fill="#bc8cff" opacity="0.5">
-        <animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite" />
+      <rect x="0" y="0" width="100" height="22" rx="5" fill="#111624" stroke="#22293d" stroke-width="0.8" />
+      <circle cx="11" cy="11" r="4" fill="#818cf8" opacity="0.3">
+        <animate attributeName="r" values="3;5.5;3" dur="2.4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.3;0.08;0.3" dur="2.4s" repeatCount="indefinite" />
       </circle>
-      <circle cx="11" cy="11" r="3" fill="#bc8cff" />
-      <text x="20" y="15" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">WIN32 HOOK</text>
+      <circle cx="11" cy="11" r="2.8" fill="#818cf8" />
+      <text x="20" y="15" fill="#c4b5fd" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">WIN32 HOOK</text>
     </g>
   </g>
 
-  <!-- Title with Hover-Like Glow -->
-  <text x="20" y="66" fill="#f0f6fc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">StreamShield</text>
+  <!-- Title -->
+  <text x="20" y="64" fill="#f7f8f8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">StreamShield</text>
 
   <!-- Description -->
-  <text x="20" y="90" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">Lightweight Windows desktop utility isolating sensitive application windows</text>
-  <text x="20" y="108" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">from OBS, Discord, and screen recording pipelines in real time.</text>
+  <text x="20" y="86" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">Lightweight Windows desktop utility isolating sensitive application windows</text>
+  <text x="20" y="104" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">from OBS, Discord, and screen recording pipelines in real time.</text>
 
-  <!-- Animated Data Packet Pipeline -->
-  <g transform="translate(295, 66)">
-    <!-- Pipeline Line -->
-    <line x1="0" y1="12" x2="80" y2="12" stroke="#30363d" stroke-width="2" stroke-dasharray="3 3" />
-    <!-- Traveling Data Packet 1 -->
-    <circle cx="0" cy="12" r="3.5" fill="#bc8cff">
-      <animate attributeName="cx" values="0;80" dur="1.6s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite" />
-    </circle>
-    <!-- Traveling Data Packet 2 -->
-    <circle cx="0" cy="12" r="2.5" fill="#39d353">
-      <animate attributeName="cx" values="0;80" dur="1.6s" begin="0.8s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" begin="0.8s" repeatCount="indefinite" />
-    </circle>
+  <!-- Clean Shield Icon Graphic -->
+  <g transform="translate(330, 56)">
+    <path d="M16 2 L30 8 L30 20 C30 28 16 36 16 36 C16 36 2 28 2 20 L2 8 Z" fill="#111624" stroke="#818cf8" stroke-width="1.2" stroke-linejoin="round" />
+    <path d="M11 18 L15 22 L22 14" stroke="#38bdf8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
   </g>
 
   <!-- Clean Visual Metric Pills -->
-  <g transform="translate(20, 126)">
+  <g transform="translate(20, 122)">
     <!-- Pill 1 -->
-    <rect x="0" y="0" width="55" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <rect x="0" y="0" width="55" height="22" rx="4" fill="#111624" stroke="#22293d" stroke-width="0.8" />
     <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Rust</text>
 
     <!-- Pill 2 -->
     <g transform="translate(63, 0)">
-      <rect x="0" y="0" width="55" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <rect x="0" y="0" width="55" height="22" rx="4" fill="#111624" stroke="#22293d" stroke-width="0.8" />
       <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Tauri</text>
     </g>
 
     <!-- Pill 3 -->
     <g transform="translate(126, 0)">
-      <rect x="0" y="0" width="85" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <rect x="0" y="0" width="85" height="22" rx="4" fill="#111624" stroke="#22293d" stroke-width="0.8" />
       <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Win32 APIs</text>
     </g>
 
     <!-- Pill 4 -->
     <g transform="translate(219, 0)">
-      <rect x="0" y="0" width="95" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <rect x="0" y="0" width="95" height="22" rx="4" fill="#111624" stroke="#22293d" stroke-width="0.8" />
       <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Sub-25MB RAM</text>
     </g>
   </g>
 
-  <!-- Bottom CTA Bar with Animated Arrow -->
-  <g transform="translate(20, 160)">
-    <text x="0" y="14" fill="#bc8cff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Inspect Architecture</text>
+  <!-- Bottom CTA Bar with Subtle Arrow -->
+  <g transform="translate(20, 158)">
+    <text x="0" y="14" fill="#818cf8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Inspect Architecture</text>
     <g transform="translate(126, 14)">
-      <text x="0" y="0" fill="#bc8cff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">
+      <text x="0" y="0" fill="#818cf8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">
         ↗
-        <animateTransform attributeName="transform" type="translate" values="0,0; 2,-2; 0,0" dur="1.5s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; 1.5,-1.5; 0,0" dur="2s" repeatCount="indefinite" />
       </text>
     </g>
   </g>

@@ -1,99 +1,98 @@
-<svg width="415" height="195" viewBox="0 0 415 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="415" height="190" viewBox="0 0 415 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="cBg" x1="0" y1="0" x2="415" y2="195" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0a0e18" />
-      <stop offset="100%" stop-color="#121828" />
+    <!-- Deep Obsidian Card Surface -->
+    <linearGradient id="cmBg" x1="0" y1="0" x2="415" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="50%" stop-color="#0d111b" />
+      <stop offset="100%" stop-color="#121726" />
     </linearGradient>
 
-    <!-- Moving Rim Light -->
-    <linearGradient id="cRim" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#58a6ff">
-        <animate attributeName="stop-color" values="#58a6ff;#00f5ff;#39d353;#58a6ff" dur="4s" repeatCount="indefinite" />
+    <!-- Subtle Accent Top Rim Highlight -->
+    <linearGradient id="cmRim" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5e6ad2" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#5e6ad2;#38bdf8;#5e6ad2" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#39d353">
-        <animate attributeName="stop-color" values="#39d353;#58a6ff;#00f5ff;#39d353" dur="4s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.7">
+        <animate attributeName="stop-color" values="#38bdf8;#5e6ad2;#38bdf8" dur="8s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
-    <!-- Laser Scanner Gradient -->
-    <linearGradient id="laserScan" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0" />
-      <stop offset="50%" stop-color="#00f5ff" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
-    </linearGradient>
+    <!-- Subtle Moving Ambient Radial Glow -->
+    <radialGradient id="cmAmbientGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320, 60) rotate(45) scale(180, 120)">
+      <stop offset="0%" stop-color="#5e6ad2" stop-opacity="0.14">
+        <animate attributeName="stop-opacity" values="0.14;0.05;0.18;0.14" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#08090d" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
-  <!-- Container -->
-  <rect x="1" y="1" width="413" height="193" rx="10" fill="url(#cBg)" stroke="#30363d" stroke-width="1" />
-  <rect x="1" y="1" width="413" height="2.5" rx="1" fill="url(#cRim)" />
+  <!-- Container Base with Hairline Border -->
+  <rect x="1" y="1" width="413" height="188" rx="10" fill="url(#cmBg)" stroke="#22293d" stroke-width="1" />
 
-  <!-- Animated Vertical Laser Scanner Sweep -->
-  <rect x="2" y="2" width="411" height="30" fill="url(#laserScan)">
-    <animate attributeName="y" values="2;160;2" dur="3.5s" repeatCount="indefinite" />
-  </rect>
+  <!-- Subtle Moving Ambient Light -->
+  <rect x="2" y="2" width="411" height="186" rx="9" fill="url(#cmAmbientGlow)" />
 
-  <!-- Top Category and Animated Status -->
+  <!-- Subtle Top Rim Gradient -->
+  <rect x="1" y="1" width="413" height="1.8" rx="1" fill="url(#cmRim)" />
+
+  <!-- Header Category & Live Status -->
   <g transform="translate(20, 16)">
-    <rect x="0" y="0" width="125" height="22" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-    <circle cx="11" cy="11" r="3" fill="#58a6ff" />
-    <text x="20" y="15" fill="#58a6ff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="0.04em">3D SPATIAL WEB</text>
+    <rect x="0" y="0" width="125" height="22" rx="5" fill="#111624" stroke="#22293d" stroke-width="0.8" />
+    <circle cx="11" cy="11" r="2.8" fill="#5e6ad2" />
+    <text x="20" y="15" fill="#818cf8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="0.04em">3D SPATIAL WEB</text>
 
     <!-- Right Live Pulse Beacon -->
     <g transform="translate(300, 0)">
-      <rect x="0" y="0" width="75" height="22" rx="5" fill="#161b22" stroke="#3fb950" stroke-width="0.8" />
-      <circle cx="11" cy="11" r="5" fill="#3fb950" opacity="0.5">
-        <animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite" />
+      <rect x="0" y="0" width="75" height="22" rx="5" fill="#111624" stroke="#22293d" stroke-width="0.8" />
+      <circle cx="11" cy="11" r="4" fill="#10b981" opacity="0.3">
+        <animate attributeName="r" values="3;5.5;3" dur="2.4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.3;0.08;0.3" dur="2.4s" repeatCount="indefinite" />
       </circle>
-      <circle cx="11" cy="11" r="3" fill="#3fb950" />
-      <text x="20" y="15" fill="#3fb950" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">LIVE MVP</text>
+      <circle cx="11" cy="11" r="2.8" fill="#10b981" />
+      <text x="20" y="15" fill="#34d399" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">LIVE MVP</text>
     </g>
   </g>
 
-  <!-- Title with Hover-Like Glow -->
-  <text x="20" y="66" fill="#f0f6fc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">ContactMe</text>
+  <!-- Title -->
+  <text x="20" y="64" fill="#f7f8f8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">ContactMe</text>
 
   <!-- Description -->
-  <text x="20" y="90" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">Interactive personal 3D web portal featuring real-time CSS3 matrix</text>
-  <text x="20" y="108" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">perspective transforms driven by cursor velocity and physics.</text>
+  <text x="20" y="86" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">Interactive personal 3D web portal featuring real-time CSS3 matrix</text>
+  <text x="20" y="104" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">perspective transforms driven by cursor velocity and physics.</text>
 
-  <!-- Animated Oscillating 3D Coordinate Plane Mockup -->
-  <g transform="translate(315, 62)">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" values="-4 35 25; 6 35 25; -4 35 25" dur="4s" repeatCount="indefinite" />
-      <polygon points="0,20 40,0 70,18 30,38" fill="#161b22" stroke="#58a6ff" stroke-width="1.2" />
-      <circle cx="35" cy="18" r="2.5" fill="#00f5ff" />
-      <line x1="35" y1="18" x2="55" y2="6" stroke="#39d353" stroke-width="1" stroke-dasharray="2 2" />
-    </g>
+  <!-- Clean Isometric Plane Accent -->
+  <g transform="translate(325, 58)">
+    <polygon points="0,18 36,0 64,16 28,34" fill="#111624" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.8" />
+    <circle cx="32" cy="16" r="2.5" fill="#5e6ad2" />
+    <line x1="32" y1="16" x2="50" y2="6" stroke="#818cf8" stroke-width="1" stroke-dasharray="2 2" stroke-opacity="0.8" />
   </g>
 
   <!-- Clean Visual Metric Pills -->
-  <g transform="translate(20, 126)">
+  <g transform="translate(20, 122)">
     <!-- Pill 1 -->
-    <rect x="0" y="0" width="85" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+    <rect x="0" y="0" width="85" height="22" rx="4" fill="#111624" stroke="#22293d" stroke-width="0.8" />
     <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">JavaScript</text>
 
     <!-- Pill 2 -->
     <g transform="translate(93, 0)">
-      <rect x="0" y="0" width="105" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <rect x="0" y="0" width="105" height="22" rx="4" fill="#111624" stroke="#22293d" stroke-width="0.8" />
       <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">CSS3 3D Matrix</text>
     </g>
 
     <!-- Pill 3 -->
     <g transform="translate(206, 0)">
-      <rect x="0" y="0" width="95" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+      <rect x="0" y="0" width="95" height="22" rx="4" fill="#111624" stroke="#22293d" stroke-width="0.8" />
       <text x="10" y="15" fill="#c9d1d9" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">Sub-1ms RAF</text>
     </g>
   </g>
 
-  <!-- Bottom CTA Bar with Animated Arrow -->
-  <g transform="translate(20, 160)">
-    <text x="0" y="14" fill="#58a6ff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Launch Interactive Portal</text>
+  <!-- Bottom CTA Bar with Subtle Arrow -->
+  <g transform="translate(20, 158)">
+    <text x="0" y="14" fill="#818cf8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">Launch Interactive Portal</text>
     <g transform="translate(148, 14)">
-      <text x="0" y="0" fill="#58a6ff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">
+      <text x="0" y="0" fill="#818cf8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">
         ↗
-        <animateTransform attributeName="transform" type="translate" values="0,0; 2,-2; 0,0" dur="1.5s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; 1.5,-1.5; 0,0" dur="2s" repeatCount="indefinite" />
       </text>
     </g>
   </g>

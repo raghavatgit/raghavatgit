@@ -1,121 +1,114 @@
-<svg width="860" height="205" viewBox="0 0 860 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="190" viewBox="0 0 860 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Dark Card Obsidian Base -->
-    <linearGradient id="heroBg" x1="0" y1="0" x2="860" y2="205" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#070a12" />
-      <stop offset="50%" stop-color="#0b101d" />
-      <stop offset="100%" stop-color="#121829" />
+    <!-- Deep Obsidian Surface -->
+    <linearGradient id="heroBg" x1="0" y1="0" x2="860" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="50%" stop-color="#0d111b" />
+      <stop offset="100%" stop-color="#121726" />
     </linearGradient>
 
-    <!-- Kinetic Laser Beam Across Top Rim -->
-    <linearGradient id="laserBeam" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#00f5ff">
-        <animate attributeName="stop-color" values="#00f5ff;#a855f7;#39d353;#00f5ff" dur="6s" repeatCount="indefinite" />
+    <!-- Subtle Linear Accent Top Rim -->
+    <linearGradient id="subtleTopRim" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5e6ad2" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#5e6ad2;#38bdf8;#818cf8;#5e6ad2" dur="10s" repeatCount="indefinite" />
       </stop>
-      <stop offset="50%" stop-color="#a855f7">
-        <animate attributeName="stop-color" values="#a855f7;#39d353;#00f5ff;#a855f7" dur="6s" repeatCount="indefinite" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.6">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#5e6ad2;#38bdf8" dur="10s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#39d353">
-        <animate attributeName="stop-color" values="#39d353;#00f5ff;#a855f7;#39d353" dur="6s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#818cf8;#5e6ad2;#38bdf8;#818cf8" dur="10s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
-    <!-- Ambient Glowing Gradient Blob 1 -->
-    <radialGradient id="glowBlob1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180, 40) rotate(45) scale(220, 160)">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12">
-        <animate attributeName="stop-opacity" values="0.12;0.04;0.18;0.12" dur="5s" repeatCount="indefinite" />
+    <!-- Subtle Moving Ambient Light Source 1 (Linear Indigo) -->
+    <radialGradient id="ambientLight1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200, 30) rotate(45) scale(240, 160)">
+      <stop offset="0%" stop-color="#5e6ad2" stop-opacity="0.14">
+        <animate attributeName="stop-opacity" values="0.14;0.06;0.18;0.14" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#070a12" stop-opacity="0" />
+      <stop offset="100%" stop-color="#08090d" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Ambient Glowing Gradient Blob 2 -->
-    <radialGradient id="glowBlob2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(740, 130) rotate(45) scale(200, 140)">
-      <stop offset="0%" stop-color="#39d353" stop-opacity="0.10">
-        <animate attributeName="stop-opacity" values="0.10;0.18;0.05;0.10" dur="6s" repeatCount="indefinite" />
+    <!-- Subtle Moving Ambient Light Source 2 (Sky Cyan) -->
+    <radialGradient id="ambientLight2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720, 130) rotate(45) scale(220, 140)">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.10">
+        <animate attributeName="stop-opacity" values="0.10;0.16;0.05;0.10" dur="9s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#070a12" stop-opacity="0" />
+      <stop offset="100%" stop-color="#08090d" stop-opacity="0" />
     </radialGradient>
   </defs>
 
-  <!-- Base Container -->
-  <rect x="1" y="1" width="858" height="203" rx="12" fill="url(#heroBg)" stroke="#30363d" stroke-width="1.2" />
+  <!-- Card Base with Hairline Border -->
+  <rect x="1" y="1" width="858" height="188" rx="12" fill="url(#heroBg)" stroke="#222738" stroke-width="1" />
 
-  <!-- Animated Ambient Aura Backgrounds -->
-  <rect x="2" y="2" width="856" height="201" rx="11" fill="url(#glowBlob1)" />
-  <rect x="2" y="2" width="856" height="201" rx="11" fill="url(#glowBlob2)" />
+  <!-- Ambient Light Overlays -->
+  <rect x="2" y="2" width="856" height="186" rx="11" fill="url(#ambientLight1)" />
+  <rect x="2" y="2" width="856" height="186" rx="11" fill="url(#ambientLight2)" />
 
-  <!-- Top Laser Glow Rim -->
-  <rect x="1" y="1" width="858" height="2.5" rx="1" fill="url(#laserBeam)" />
+  <!-- Subtle Top Rim Gradient -->
+  <rect x="1" y="1" width="858" height="1.8" rx="1" fill="url(#subtleTopRim)" />
 
   <!-- Name Headline -->
-  <text x="36" y="54" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.02em">
+  <text x="36" y="50" fill="#f7f8f8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="27" font-weight="800" letter-spacing="-0.02em">
     RAGHAV GOYAL
   </text>
 
-  <!-- Animated Role Loop (Smooth in-place dissolve without horizontal jitter) -->
+  <!-- Animated Role Loop (Subtle, smooth in-place dissolve) -->
   <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">
     <!-- Role 1: Aspiring Software Engineer -->
-    <text x="36" y="82" fill="#58a6ff">
+    <text x="36" y="77" fill="#818cf8">
       Aspiring Software Engineer
       <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.27;0.33;0.94;0.98;1" dur="7.5s" repeatCount="indefinite" />
     </text>
 
     <!-- Role 2: Freelance Full-Stack Web Designer -->
-    <text x="36" y="82" fill="#39d353" opacity="0">
+    <text x="36" y="77" fill="#38bdf8" opacity="0">
       Freelance Full-Stack Web Designer
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.31;0.36;0.60;0.66;1" dur="7.5s" repeatCount="indefinite" />
     </text>
 
     <!-- Role 3: Native Desktop Application Developer -->
-    <text x="36" y="82" fill="#bc8cff" opacity="0">
+    <text x="36" y="77" fill="#a78bfa" opacity="0">
       Native Desktop Application Developer
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.64;0.69;0.93;0.97;1" dur="7.5s" repeatCount="indefinite" />
     </text>
   </g>
 
-  <!-- Clear Bio Description -->
-  <text x="36" y="112" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400">
+  <!-- Concise Bio Description -->
+  <text x="36" y="105" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400">
     Crafting responsive web architectures, lightweight native utilities, and high-performance digital experiences.
   </text>
 
-  <!-- Bottom Interactive Status Row -->
-  <g transform="translate(36, 144)">
-    <!-- Multi-Ring Sonar Radar Pulse on Available for Freelance -->
+  <!-- Bottom Refined Status Row -->
+  <g transform="translate(36, 134)">
+    <!-- Pill: Available for Freelance with subtle breathing dot -->
     <g>
-      <rect x="0" y="0" width="176" height="30" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" />
-      <!-- Wave 1 -->
-      <circle cx="16" cy="15" r="4" fill="#3fb950" opacity="0.6">
-        <animate attributeName="r" values="3.5;9;3.5" dur="1.8s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite" />
+      <rect x="0" y="0" width="176" height="28" rx="6" fill="#111624" stroke="#22293d" stroke-width="1" />
+      <!-- Soft breathing outer halo -->
+      <circle cx="16" cy="14" r="4.5" fill="#10b981" opacity="0.3">
+        <animate attributeName="r" values="3.5;6.5;3.5" dur="2.4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.3;0.08;0.3" dur="2.4s" repeatCount="indefinite" />
       </circle>
-      <!-- Wave 2 -->
-      <circle cx="16" cy="15" r="4" fill="#39d353" opacity="0.3">
-        <animate attributeName="r" values="3.5;13;3.5" dur="1.8s" begin="0.4s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.4;0;0.4" dur="1.8s" begin="0.4s" repeatCount="indefinite" />
-      </circle>
-      <!-- Core Center Point -->
-      <circle cx="16" cy="15" r="3.5" fill="#3fb950">
-        <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite" />
-      </circle>
-      <text x="32" y="19" fill="#7ee787" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">Available for Freelance</text>
+      <!-- Core Point -->
+      <circle cx="16" cy="14" r="3" fill="#10b981" />
+      <text x="30" y="18" fill="#34d399" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Available for Freelance</text>
     </g>
 
     <!-- Pill: crag.web.app -->
     <g transform="translate(186, 0)">
-      <rect x="0" y="0" width="135" height="30" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" />
-      <text x="14" y="19" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">crag.web.app</text>
+      <rect x="0" y="0" width="135" height="28" rx="6" fill="#111624" stroke="#22293d" stroke-width="1" />
+      <text x="14" y="18" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">crag.web.app</text>
     </g>
 
     <!-- Pill: contactraghav.web.app -->
     <g transform="translate(331, 0)">
-      <rect x="0" y="0" width="180" height="30" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" />
-      <text x="14" y="19" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">contactraghav.web.app</text>
+      <rect x="0" y="0" width="180" height="28" rx="6" fill="#111624" stroke="#22293d" stroke-width="1" />
+      <text x="14" y="18" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">contactraghav.web.app</text>
     </g>
 
     <!-- Pill: Location -->
     <g transform="translate(521, 0)">
-      <rect x="0" y="0" width="130" height="30" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" />
-      <text x="14" y="19" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">New Delhi, India</text>
+      <rect x="0" y="0" width="130" height="28" rx="6" fill="#111624" stroke="#22293d" stroke-width="1" />
+      <text x="14" y="18" fill="#8a8f98" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">New Delhi, India</text>
     </g>
   </g>
 </svg>
