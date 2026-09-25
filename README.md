@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="Raghav Goyal" width="100%" />
+  <img src="assets/banner.svg?v=3" alt="Raghav Goyal" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://crag.web.app"><img src="assets/btn-portfolio.svg" height="34" alt="Portfolio" /></a>
+  <a href="https://crag.web.app"><img src="assets/btn-portfolio.svg?v=3" height="34" alt="Portfolio" /></a>
   &nbsp;
-  <a href="https://contactraghav.web.app"><img src="assets/btn-contact.svg" height="34" alt="3D Contact Portal" /></a>
+  <a href="https://contactraghav.web.app"><img src="assets/btn-contact.svg?v=3" height="34" alt="3D Contact Portal" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><img src="assets/btn-linkedin.svg" height="34" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><img src="assets/btn-linkedin.svg?v=3" height="34" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="mailto:goyalraghav1289@gmail.com"><img src="assets/btn-email.svg" height="34" alt="Email Inquiries" /></a>
+  <a href="mailto:goyalraghav1289@gmail.com"><img src="assets/btn-email.svg?v=3" height="34" alt="Email Inquiries" /></a>
 </div>
 
 <br />
@@ -21,9 +21,9 @@
 ### Featured Projects
 
 <div align="center">
-  <a href="https://contactraghav.web.app"><img src="assets/card-contactme.svg" width="48%" alt="ContactMe 3D Spatial Portal" /></a>
+  <a href="https://contactraghav.web.app"><img src="assets/card-contactme.svg?v=3" width="48%" alt="ContactMe 3D Spatial Portal" /></a>
   &nbsp;
-  <a href="https://github.com/raghavatgit/StreamShield"><img src="assets/card-streamshield.svg" width="48%" alt="StreamShield Privacy Isolation" /></a>
+  <a href="https://github.com/raghavatgit/StreamShield"><img src="assets/card-streamshield.svg?v=3" width="48%" alt="StreamShield Privacy Isolation" /></a>
 </div>
 
 <br />
