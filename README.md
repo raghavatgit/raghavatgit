@@ -86,10 +86,12 @@ Performance & SEO Goals             Micro-interactions & Speed         Clean Han
 
 ### Engineering Activity & Telemetry
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=raghavatgit&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raghavatgit&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
-</div>
+| Metric | Overview | Focus Area |
+| :--- | :--- | :--- |
+| **Annual Activity** | 720+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
+| **Problem Solutions** | 100+ Production-Grade Solutions | Rust, C++, TypeScript ([dsa-patterns](https://github.com/raghavatgit/dsa-patterns)) |
+| **Systems & Architecture** | 110+ Technical Engineering Notes | Linux VFS, Distributed Systems, Networking ([til](https://github.com/raghavatgit/til)) |
+| **Active Codebases** | 11 Public Repositories | Desktop Utilities, Web Audio DSP, Spatial 3D Web |
 
 ---
 
