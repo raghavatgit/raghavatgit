@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="assets/banner.svg?v=5" alt="Raghav Goyal" width="100%" />
+  <img src="assets/banner.svg?v=6" alt="Raghav Goyal" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://crag.web.app"><img src="assets/btn-portfolio.svg?v=5" height="34" alt="Portfolio" /></a>
+  <a href="https://crag.web.app"><img src="assets/btn-portfolio.svg?v=6" height="34" alt="Portfolio" /></a>
   &nbsp;
-  <a href="https://contactraghav.web.app"><img src="assets/btn-contact.svg?v=5" height="34" alt="3D Contact Portal" /></a>
+  <a href="https://contactraghav.web.app"><img src="assets/btn-contact.svg?v=6" height="34" alt="3D Contact Portal" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><img src="assets/btn-linkedin.svg?v=5" height="34" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><img src="assets/btn-linkedin.svg?v=6" height="34" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="mailto:goyalraghav1289@gmail.com"><img src="assets/btn-email.svg?v=5" height="34" alt="Email Inquiries" /></a>
+  <a href="mailto:goyalraghav1289@gmail.com"><img src="assets/btn-email.svg?v=6" height="34" alt="Email Inquiries" /></a>
 </div>
 
 <br />
@@ -79,9 +79,9 @@ interface SoftwareEngineer {
 ### Featured Architectures & Case Studies
 
 <div align="center">
-  <a href="https://contactraghav.web.app"><img src="assets/card-contactme.svg?v=5" width="48%" alt="ContactMe 3D Spatial Portal" /></a>
+  <a href="https://contactraghav.web.app"><img src="assets/card-contactme.svg?v=6" width="48%" alt="ContactMe 3D Spatial Portal" /></a>
   &nbsp;
-  <a href="https://github.com/raghavatgit/StreamShield"><img src="assets/card-streamshield.svg?v=5" width="48%" alt="StreamShield Privacy Isolation" /></a>
+  <a href="https://github.com/raghavatgit/StreamShield"><img src="assets/card-streamshield.svg?v=6" width="48%" alt="StreamShield Privacy Isolation" /></a>
 </div>
 
 <br />
@@ -139,7 +139,7 @@ Embedded YouTube Music companion client for Vencord with DSP audio normalization
 ### Engineering Activity & Live Telemetry
 
 <div align="center">
-  <img src="assets/snake.svg?v=5" alt="Contribution Snake Animation" width="100%" />
+  <img src="assets/snake.svg?v=6" alt="Contribution Snake Animation" width="100%" />
 </div>
 
 <br />
@@ -179,5 +179,5 @@ Whether you are looking for a responsive full-stack web application, a custom na
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg?v=5" alt="Footer Banner" width="100%" />
+  <img src="assets/footer.svg?v=6" alt="Footer Banner" width="100%" />
 </div>
