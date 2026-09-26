@@ -139,7 +139,7 @@ Embedded YouTube Music companion client for Vencord with DSP audio normalization
 ### Engineering Activity & Live Telemetry
 
 <div align="center">
-  <img src="assets/snake.svg?v=7" alt="Contribution Snake Animation" width="100%" />
+  <img src="assets/snake.svg?v=8" alt="Contribution Snake Animation" width="100%" />
 </div>
 
 <br />
