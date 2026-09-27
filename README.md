@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg?v=1790531145" alt="Raghav Goyal" width="100%" />
+  <img src="assets/banner.svg?v=1790532848" alt="Raghav Goyal" width="100%" />
 </div>
 
 <br />
@@ -34,6 +34,10 @@ Undergraduate computer science student at South Asian University ('29) specializ
 - **Kernel-Level Registry & Dispatcher Engine**: Dual-OS registry optimization engine supporting Windows 10 and Windows 11, hardware-accelerated GPU scheduling, system timer resolution tuning, DWM responsiveness, and automated AppX bloatware removal with safety whitelist verification.
 - **Gaming & Android Emulator Acceleration**: Custom subsystem for BlueStacks 5 and MSI App Player unlocking 240 FPS via ASUS ROG Phone 2 profile emulation, mouse acceleration curve neutralization for drag headshots, and network packet pacing.
 - **System Safety & Reversibility**: Built-in automated System Restore point creation, selective registry hive backups, and a 40-point automated deep validation test suite.
+- **Instant Zero-Install Run**: Launch directly on any Windows machine via PowerShell with automated UAC elevation and zero local prerequisites:
+  ```powershell
+  irm https://raw.githubusercontent.com/raghavatgit/AnxiouslyOptimized/main/run.ps1 | iex
+  ```
 - **Actions**: [Inspect Architecture & Implementation ->](https://github.com/raghavatgit/AnxiouslyOptimized)
 
 #### 2. Native Desktop Systems & Privacy Isolation
@@ -111,14 +115,14 @@ Undergraduate computer science student at South Asian University ('29) specializ
 ### Live Telemetry & Engineering Activity
 
 <div align="center">
-  <img src="assets/telemetry.svg?v=1790531145" alt="Telemetry Dashboard" width="100%" />
+  <img src="assets/telemetry.svg?v=1790532848" alt="Telemetry Dashboard" width="100%" />
 </div>
 
 <br />
 
 | Metric | Telemetry Count | Focus Domain |
 | :--- | :--- | :--- |
-| **Annual Activity** | 888+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
+| **Annual Activity** | 890+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
 | **Problem Solutions** | 100+ Production-Grade Solutions | Rust, C++, TypeScript ([dsa-patterns](https://github.com/raghavatgit/dsa-patterns)) |
 | **Systems & Architecture** | 110+ Technical Engineering Notes | Linux VFS, Distributed Systems, Networking ([til](https://github.com/raghavatgit/til)) |
 | **Active Codebases** | 12 Public Repositories | Desktop Utilities, Web Audio DSP, Spatial 3D Web |
@@ -146,5 +150,5 @@ Whether you are looking for a responsive full-stack web application, a custom na
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg?v=1790531145" alt="Footer Banner" width="100%" />
+  <img src="assets/footer.svg?v=1790532848" alt="Footer Banner" width="100%" />
 </div>
