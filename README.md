@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="assets/banner.svg?v=11" alt="Raghav Goyal" width="100%" />
+  <img src="assets/banner.svg?v=1790524432" alt="Raghav Goyal" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://crag.web.app"><img src="assets/btn-portfolio.svg?v=11" height="34" alt="Portfolio" /></a>
+  <a href="https://crag.web.app"><img src="assets/btn-portfolio.svg?v=1790524432" height="34" alt="Portfolio" /></a>
   &nbsp;
-  <a href="https://contactraghav.web.app"><img src="assets/btn-contact.svg?v=11" height="34" alt="3D Contact Portal" /></a>
+  <a href="https://contactraghav.web.app"><img src="assets/btn-contact.svg?v=1790524432" height="34" alt="3D Contact Portal" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><img src="assets/btn-linkedin.svg?v=11" height="34" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><img src="assets/btn-linkedin.svg?v=1790524432" height="34" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="mailto:goyalraghav1289@gmail.com"><img src="assets/btn-email.svg?v=11" height="34" alt="Email Inquiries" /></a>
+  <a href="mailto:goyalraghav1289@gmail.com"><img src="assets/btn-email.svg?v=1790524432" height="34" alt="Email Inquiries" /></a>
 </div>
 
 <br />
@@ -65,9 +65,9 @@
 ### Featured Architectures & Case Studies
 
 <div align="center">
-  <a href="https://contactraghav.web.app"><img src="assets/card-contactme.svg?v=11" width="48%" alt="ContactMe 3D Spatial Portal" /></a>
+  <a href="https://contactraghav.web.app"><img src="assets/card-contactme.svg?v=1790524432" width="48%" alt="ContactMe 3D Spatial Portal" /></a>
   &nbsp;
-  <a href="https://github.com/raghavatgit/StreamShield"><img src="assets/card-streamshield.svg?v=11" width="48%" alt="StreamShield Privacy Isolation" /></a>
+  <a href="https://github.com/raghavatgit/StreamShield"><img src="assets/card-streamshield.svg?v=1790524432" width="48%" alt="StreamShield Privacy Isolation" /></a>
 </div>
 
 <br />
@@ -125,7 +125,7 @@ Embedded YouTube Music companion client for Vencord with DSP audio normalization
 ### Engineering Activity & Live Telemetry
 
 <div align="center">
-  <img src="assets/snake.svg?v=11" alt="Contribution Snake Animation" width="100%" />
+  <img src="assets/snake.svg?v=1790524432" alt="Contribution Snake Animation" width="100%" />
 </div>
 
 <br />
@@ -138,10 +138,10 @@ Embedded YouTube Music companion client for Vencord with DSP audio normalization
 
 | Metric | Overview | Focus Area |
 | :--- | :--- | :--- |
-| **Annual Activity** | 880+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
+| **Annual Activity** | 884+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
 | **Problem Solutions** | 100+ Production-Grade Solutions | Rust, C++, TypeScript ([dsa-patterns](https://github.com/raghavatgit/dsa-patterns)) |
 | **Systems & Architecture** | 110+ Technical Engineering Notes | Linux VFS, Distributed Systems, Networking ([til](https://github.com/raghavatgit/til)) |
-| **Active Codebases** | 11 Public Repositories | Desktop Utilities, Web Audio DSP, Spatial 3D Web |
+| **Active Codebases** | 12 Public Repositories | Desktop Utilities, Web Audio DSP, Spatial 3D Web |
 
 ---
 
@@ -165,5 +165,5 @@ Whether you are looking for a responsive full-stack web application, a custom na
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg?v=11" alt="Footer Banner" width="100%" />
+  <img src="assets/footer.svg?v=1790524432" alt="Footer Banner" width="100%" />
 </div>
