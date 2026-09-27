@@ -12,12 +12,12 @@
   <rect x="1" y="1" width="858" height="1" fill="url(#oledTopLine)" />
 
   <!-- Name Headline -->
-  <text x="28" y="38" fill="#f4f4f5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.02em">
+  <text x="28" y="38" fill="#f4f4f5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.02em">
     RAGHAV GOYAL
   </text>
 
   <!-- Subtitle Line -->
-  <text x="28" y="60" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500">
+  <text x="28" y="60" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
     Systems, Native Desktop &amp; Spatial Web Engineering | South Asian University '29
   </text>
 
@@ -25,21 +25,15 @@
   <line x1="28" y1="78" x2="832" y2="78" stroke="#171717" stroke-width="1" />
 
   <!-- Bottom Metadata Row -->
-  <g transform="translate(28, 98)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="500">
-    <!-- Status Indicator -->
-    <circle cx="4" cy="-4" r="3" fill="#10b981" />
-    <text x="14" y="0" fill="#10b981" font-weight="600">Available for Contract MVPs</text>
+  <circle cx="32" cy="98" r="3" fill="#10b981" />
+  <text x="42" y="102" fill="#10b981" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Available for Contract MVPs</text>
 
-    <!-- Location -->
-    <text x="200" y="0" fill="#52525b">|</text>
-    <text x="216" y="0" fill="#71717a">New Delhi, India</text>
+  <text x="225" y="102" fill="#52525b" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11">|</text>
+  <text x="240" y="102" fill="#71717a" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">New Delhi, India</text>
 
-    <!-- Portfolio Link -->
-    <text x="325" y="0" fill="#52525b">|</text>
-    <text x="341" y="0" fill="#a1a1aa">crag.web.app</text>
+  <text x="350" y="102" fill="#52525b" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11">|</text>
+  <text x="365" y="102" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">crag.web.app</text>
 
-    <!-- 3D Portal Link -->
-    <text x="440" y="0" fill="#52525b">|</text>
-    <text x="456" y="0" fill="#a1a1aa">contactraghav.web.app</text>
-  </g>
+  <text x="465" y="102" fill="#52525b" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11">|</text>
+  <text x="480" y="102" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">contactraghav.web.app</text>
 </svg>
