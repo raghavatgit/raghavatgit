@@ -1,54 +1,45 @@
-<svg width="860" height="154" viewBox="0 0 860 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="124" viewBox="0 0 860 124" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="oledTopLine" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#262626" />
-      <stop offset="50%" stop-color="#404040" />
-      <stop offset="100%" stop-color="#262626" />
+      <stop offset="0%" stop-color="#1f1f1f" />
+      <stop offset="50%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#1f1f1f" />
     </linearGradient>
   </defs>
 
   <!-- Pure OLED Black Container -->
-  <rect x="1" y="1" width="858" height="152" rx="8" fill="#000000" stroke="#1f1f1f" stroke-width="1" />
-  <rect x="1" y="1" width="858" height="1.5" rx="0.75" fill="url(#oledTopLine)" />
+  <rect x="0.5" y="0.5" width="859" height="123" rx="6" fill="#000000" stroke="#171717" stroke-width="1" />
+  <rect x="1" y="1" width="858" height="1" fill="url(#oledTopLine)" />
 
   <!-- Name Headline -->
-  <text x="32" y="42" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.02em">
+  <text x="28" y="38" fill="#f4f4f5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.02em">
     RAGHAV GOYAL
   </text>
 
-  <!-- Role Subtitle -->
-  <text x="32" y="66" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500">
-    Systems, Native Desktop &amp; Full-Stack Web Engineer | South Asian University '29
+  <!-- Subtitle Line -->
+  <text x="28" y="60" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500">
+    Systems, Native Desktop &amp; Spatial Web Engineering | South Asian University '29
   </text>
 
-  <!-- Engineering Discipline -->
-  <text x="32" y="92" fill="#71717a" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">
-    Developing zero-bloat spatial web frontends, low-footprint Windows system utilities, and operating systems research.
-  </text>
+  <!-- Divider Line -->
+  <line x1="28" y1="78" x2="832" y2="78" stroke="#171717" stroke-width="1" />
 
-  <!-- Metadata Status Pills -->
-  <g transform="translate(32, 112)">
-    <!-- Available Status -->
-    <rect x="0" y="0" width="180" height="26" rx="4" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1" />
-    <circle cx="14" cy="13" r="3.5" fill="#10b981" />
-    <text x="26" y="17" fill="#34d399" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Available for Contract MVPs</text>
+  <!-- Bottom Metadata Row -->
+  <g transform="translate(28, 98)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="500">
+    <!-- Status Indicator -->
+    <circle cx="4" cy="-4" r="3" fill="#10b981" />
+    <text x="14" y="0" fill="#10b981" font-weight="600">Available for Contract MVPs</text>
 
     <!-- Location -->
-    <g transform="translate(190, 0)">
-      <rect x="0" y="0" width="125" height="26" rx="4" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1" />
-      <text x="12" y="17" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">New Delhi, India</text>
-    </g>
+    <text x="200" y="0" fill="#52525b">|</text>
+    <text x="216" y="0" fill="#71717a">New Delhi, India</text>
 
     <!-- Portfolio Link -->
-    <g transform="translate(325, 0)">
-      <rect x="0" y="0" width="110" height="26" rx="4" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1" />
-      <text x="12" y="17" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">crag.web.app</text>
-    </g>
+    <text x="325" y="0" fill="#52525b">|</text>
+    <text x="341" y="0" fill="#a1a1aa">crag.web.app</text>
 
     <!-- 3D Portal Link -->
-    <g transform="translate(445, 0)">
-      <rect x="0" y="0" width="165" height="26" rx="4" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1" />
-      <text x="12" y="17" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">contactraghav.web.app</text>
-    </g>
+    <text x="440" y="0" fill="#52525b">|</text>
+    <text x="456" y="0" fill="#a1a1aa">contactraghav.web.app</text>
   </g>
 </svg>
