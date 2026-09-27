@@ -7,24 +7,16 @@
       <stop offset="100%" stop-color="#121726" />
     </linearGradient>
 
-    <!-- Subtle Accent Top Rim Highlight -->
+    <!-- Normal Static Top Accent Line -->
     <linearGradient id="snakeLaser" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#5e6ad2" stop-opacity="0.8">
-        <animate attributeName="stop-color" values="#5e6ad2;#38bdf8;#818cf8;#5e6ad2" dur="10s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.6">
-        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#5e6ad2;#38bdf8" dur="10s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.8">
-        <animate attributeName="stop-color" values="#818cf8;#5e6ad2;#38bdf8;#818cf8" dur="10s" repeatCount="indefinite" />
-      </stop>
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.9" />
     </linearGradient>
 
-    <!-- Subtle Moving Ambient Radial Glow -->
+    <!-- Normal Static Ambient Radial Glow -->
     <radialGradient id="snakeGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(430, 80) rotate(0) scale(360, 100)">
-      <stop offset="0%" stop-color="#5e6ad2" stop-opacity="0.08">
-        <animate attributeName="stop-opacity" values="0.08;0.03;0.12;0.08" dur="9s" repeatCount="indefinite" />
-      </stop>
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.08" />
       <stop offset="100%" stop-color="#08090d" stop-opacity="0" />
     </radialGradient>
   </defs>
@@ -39,7 +31,7 @@
     CONTRIBUTION HEATMAP &amp; RADAR
   </text>
   <text x="824" y="26" text-anchor="end" fill="#34d399" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700">
-    882 CONTRIBUTIONS IN PAST YEAR
+    883 CONTRIBUTIONS IN PAST YEAR
   </text>
 
   <!-- Centered Grid of Contribution Cells -->
@@ -49,15 +41,12 @@
 
   <!-- Animated Subtle Snake Indicator -->
   <!-- Segment 2 (Body) -->
-  <circle r="3.5" fill="#26a641" opacity="0.6">
+  <circle r="3" fill="#16a34a" opacity="0.8">
     <animateMotion path="M 597 49 L 597 127 L 610 49 L 623 127 L 636 49 L 649 127 L 662 49 L 675 127 L 688 49 L 701 127 L 714 49 L 727 127 L 740 49 L 753 127 L 766 49 L 597 49 Z" dur="16s" begin="0.2s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Segment 1 (Head) with subtle aura -->
-  <circle r="4" fill="#38bdf8">
-    <animateMotion path="M 597 49 L 597 127 L 610 49 L 623 127 L 636 49 L 649 127 L 662 49 L 675 127 L 688 49 L 701 127 L 714 49 L 727 127 L 740 49 L 753 127 L 766 49 L 597 49 Z" dur="16s" begin="0s" repeatCount="indefinite" />
-  </circle>
-  <circle r="7" fill="#38bdf8" opacity="0.25">
+  <!-- Segment 1 (Head) -->
+  <circle r="3.5" fill="#38bdf8">
     <animateMotion path="M 597 49 L 597 127 L 610 49 L 623 127 L 636 49 L 649 127 L 662 49 L 675 127 L 688 49 L 701 127 L 714 49 L 727 127 L 740 49 L 753 127 L 766 49 L 597 49 Z" dur="16s" begin="0s" repeatCount="indefinite" />
   </circle>
 </svg>
