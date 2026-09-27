@@ -1,92 +1,54 @@
-<svg width="860" height="184" viewBox="0 0 860 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="154" viewBox="0 0 860 154" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Deep Obsidian Surface with Subtle Radial Depth -->
-    <linearGradient id="heroBg" x1="0" y1="0" x2="860" y2="184" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#08090d" />
-      <stop offset="60%" stop-color="#0d111b" />
-      <stop offset="100%" stop-color="#111624" />
+    <linearGradient id="oledTopLine" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#262626" />
+      <stop offset="50%" stop-color="#404040" />
+      <stop offset="100%" stop-color="#262626" />
     </linearGradient>
-
-    <!-- Normal Static Hairline Top Accent Gradient -->
-    <linearGradient id="normalTopRim" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.9" />
-    </linearGradient>
-
-    <!-- Normal Static Ambient Light Sources -->
-    <radialGradient id="normalAmbient1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200, 20) rotate(45) scale(260, 160)">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#08090d" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="normalAmbient2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(740, 120) rotate(45) scale(220, 140)">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#08090d" stop-opacity="0" />
-    </radialGradient>
   </defs>
 
-  <!-- Container Base with Hairline Border -->
-  <rect x="1" y="1" width="858" height="182" rx="10" fill="url(#heroBg)" stroke="#222738" stroke-width="1" />
-
-  <!-- Normal Ambient Light Overlays -->
-  <rect x="2" y="2" width="856" height="180" rx="9" fill="url(#normalAmbient1)" />
-  <rect x="2" y="2" width="856" height="180" rx="9" fill="url(#normalAmbient2)" />
-
-  <!-- Normal Static Top Accent Line -->
-  <rect x="1" y="1" width="858" height="1.8" rx="1" fill="url(#normalTopRim)" />
+  <!-- Pure OLED Black Container -->
+  <rect x="1" y="1" width="858" height="152" rx="8" fill="#000000" stroke="#1f1f1f" stroke-width="1" />
+  <rect x="1" y="1" width="858" height="1.5" rx="0.75" fill="url(#oledTopLine)" />
 
   <!-- Name Headline -->
-  <text x="36" y="48" fill="#f8fafc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.02em">
+  <text x="32" y="42" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.02em">
     RAGHAV GOYAL
   </text>
 
-  <!-- Animated Role Loop (Smooth in-place dissolve) -->
-  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700">
-    <text x="36" y="74" fill="#818cf8">
-      Aspiring Software Engineer
-      <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.27;0.33;0.94;0.98;1" dur="7.5s" repeatCount="indefinite" />
-    </text>
-    <text x="36" y="74" fill="#38bdf8" opacity="0">
-      Freelance Full-Stack Web Designer
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.31;0.36;0.60;0.66;1" dur="7.5s" repeatCount="indefinite" />
-    </text>
-    <text x="36" y="74" fill="#a78bfa" opacity="0">
-      Native Desktop Application Developer
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.64;0.69;0.93;0.97;1" dur="7.5s" repeatCount="indefinite" />
-    </text>
-  </g>
-
-  <!-- Bio Description -->
-  <text x="36" y="102" fill="#94a3b8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400">
-    Crafting responsive web architectures, lightweight native utilities, and high-performance digital experiences.
+  <!-- Role Subtitle -->
+  <text x="32" y="66" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500">
+    Systems, Native Desktop &amp; Full-Stack Web Engineer | South Asian University '29
   </text>
 
-  <!-- Bottom Static Status Row (Zero Pulsating Dots) -->
-  <g transform="translate(36, 130)">
-    <!-- Pill: Available for Freelance with solid static indicator -->
-    <g>
-      <rect x="0" y="0" width="176" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <circle cx="16" cy="14" r="3.5" fill="#10b981" />
-      <text x="30" y="18" fill="#34d399" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Available for Freelance</text>
+  <!-- Engineering Discipline -->
+  <text x="32" y="92" fill="#71717a" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400">
+    Developing zero-bloat spatial web frontends, low-footprint Windows system utilities, and operating systems research.
+  </text>
+
+  <!-- Metadata Status Pills -->
+  <g transform="translate(32, 112)">
+    <!-- Available Status -->
+    <rect x="0" y="0" width="180" height="26" rx="4" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1" />
+    <circle cx="14" cy="13" r="3.5" fill="#10b981" />
+    <text x="26" y="17" fill="#34d399" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Available for Contract MVPs</text>
+
+    <!-- Location -->
+    <g transform="translate(190, 0)">
+      <rect x="0" y="0" width="125" height="26" rx="4" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1" />
+      <text x="12" y="17" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">New Delhi, India</text>
     </g>
 
-    <!-- Pill: crag.web.app -->
-    <g transform="translate(186, 0)">
-      <rect x="0" y="0" width="135" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="14" y="18" fill="#94a3b8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">crag.web.app</text>
+    <!-- Portfolio Link -->
+    <g transform="translate(325, 0)">
+      <rect x="0" y="0" width="110" height="26" rx="4" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1" />
+      <text x="12" y="17" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">crag.web.app</text>
     </g>
 
-    <!-- Pill: contactraghav.web.app -->
-    <g transform="translate(331, 0)">
-      <rect x="0" y="0" width="180" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="14" y="18" fill="#94a3b8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">contactraghav.web.app</text>
-    </g>
-
-    <!-- Pill: Location -->
-    <g transform="translate(521, 0)">
-      <rect x="0" y="0" width="130" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="14" y="18" fill="#94a3b8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">New Delhi, India</text>
+    <!-- 3D Portal Link -->
+    <g transform="translate(445, 0)">
+      <rect x="0" y="0" width="165" height="26" rx="4" fill="#0a0a0a" stroke="#1f1f1f" stroke-width="1" />
+      <text x="12" y="17" fill="#a1a1aa" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">contactraghav.web.app</text>
     </g>
   </g>
 </svg>

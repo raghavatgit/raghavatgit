@@ -1,144 +1,116 @@
 <div align="center">
-  <img src="assets/banner.svg?v=1790524432" alt="Raghav Goyal" width="100%" />
+  <img src="assets/banner.svg?v=1790525339" alt="Raghav Goyal" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://crag.web.app"><img src="assets/btn-portfolio.svg?v=1790524432" height="34" alt="Portfolio" /></a>
-  &nbsp;
-  <a href="https://contactraghav.web.app"><img src="assets/btn-contact.svg?v=1790524432" height="34" alt="3D Contact Portal" /></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><img src="assets/btn-linkedin.svg?v=1790524432" height="34" alt="LinkedIn" /></a>
-  &nbsp;
-  <a href="mailto:goyalraghav1289@gmail.com"><img src="assets/btn-email.svg?v=1790524432" height="34" alt="Email Inquiries" /></a>
+  <a href="https://crag.web.app"><strong>Portfolio</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://contactraghav.web.app"><strong>3D Space Portal</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/raghav-goyal-linkd/"><strong>LinkedIn</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="mailto:goyalraghav1289@gmail.com"><strong>Email Direct</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/raghavatgit?tab=repositories"><strong>Repositories</strong></a>
 </div>
 
 <br />
 
 ---
 
-### Engineering Focus & Technical Competencies
+### Executive Overview
 
-| Domain | Architectural Focus & Principles | Primary Tooling |
+Undergraduate computer science student at South Asian University ('29) specializing in native Windows desktop systems, zero-dependency spatial web architectures, and operating system internals. Engineering approach emphasizes minimal resident memory footprints, elimination of third-party framework overhead, and rigorous asymptotic complexity guarantees.
+
+---
+
+### What I Do: Engineering & Production Systems
+
+#### 1. Native Desktop Systems & Privacy Isolation
+- **StreamShield ([Repository](https://github.com/raghavatgit/StreamShield))**: Lightweight Windows desktop utility engineered with Rust and Tauri that isolates sensitive application windows from screen capture pipelines (OBS, Discord, Zoom) in real time.
+- **Kernel-Level Affinity**: Direct interop with Windows Win32 API via `SetWindowDisplayAffinity(hwnd, WDA_EXCLUDEFROMCAPTURE)` at the Desktop Window Manager (DWM) level.
+- **Resource Discipline**: Operates strictly within a sub-25 MB resident RAM footprint with an asynchronous, non-blocking IPC state bridge between Rust core and the user interface.
+
+#### 2. Spatial 3D Web & Interactive Interface Physics
+- **ContactMe ([Live Portal](https://contactraghav.web.app) | [Repository](https://github.com/raghavatgit/ContactMe))**: Interactive 3D spatial web environment calculating perspective matrix transformations driven by cursor velocity vectors.
+- **Mathematical Rendering**: Pure CSS3 3D Matrix calculations executed inside a sub-1ms `requestAnimationFrame` loop, eliminating WebGL and Three.js runtime overhead entirely.
+- **Zero-Bloat Delivery**: Complete client bundle compressed under 15 KB gzipped, deployed globally on Firebase edge hosting.
+- **Zenflow-3D ([Repository](https://github.com/raghavatgit/Zenflow-3D))**: Deep focus spatial interface implementing multi-layered perspective planes and tactile physics.
+
+#### 3. Audio Digital Signal Processing & Desktop Extensions
+- **vencord-ytm-player ([Repository](https://github.com/raghavatgit/vencord-ytm-player))**: Embedded YouTube Music companion client for Vencord with real-time DSP audio normalization.
+- **Dynamic Range Normalization**: Real-time logarithmic DSP curve preventing sudden volume spikes between music tracks.
+- **IPC State Broadcast**: Persistent non-blocking communication channel synchronizing track metadata and state to Discord Rich Presence.
+- **Ring Buffer Queue**: Low-latency memory queue management ensuring seamless playback resumption.
+
+#### 4. Commercial Web & Contract MVP Delivery
+- Delivering production-ready web applications, high-converting landing pages, and interactive prototypes deployed on Google Cloud Platform and Firebase edge infrastructure.
+
+---
+
+### What I Learn: Systems Research & Algorithmic Foundations
+
+#### 1. Algorithmic Problem Solving & Data Structures
+- **dsa-patterns ([Repository](https://github.com/raghavatgit/dsa-patterns))**: Over 100 production-grade algorithmic implementations in Rust, C++, and TypeScript.
+- **Coverage**: Dynamic programming (state compression, bitmask DP), graph theory (Tarjan SCC, Dijkstra, topological sorting), monotonic queues, sliding windows, and bitwise manipulation.
+- **Rigor**: Every solution is accompanied by formal asymptotic time and space complexity proofs, invariant analysis, and comprehensive unit tests.
+
+#### 2. Operating Systems Internals & Systems Notes
+- **til: Today I Learned ([Repository](https://github.com/raghavatgit/til))**: Over 110 structured engineering notes cataloging low-level computing architectures:
+  - **Linux VFS Layer**: Inode lifecycle, dentry cache invalidation, page cache writeback flushing, file descriptor table mechanics.
+  - **Storage Engines**: Log-Structured Merge (LSM) trees, SSTables, write amplification vs B+ Tree in-place updates.
+  - **Memory Subsystems**: Virtual memory mapping, page table walks, slab allocators, copy-on-write (COW) semantics.
+  - **Networking Stack**: TCP state machines, epoll event multiplexing, congestion control algorithms (CUBIC, BBR).
+
+#### 3. Academic Foundation
+- Department of Computer Science, South Asian University, New Delhi (Class of 2029).
+
+---
+
+### Technical Stack & Tooling
+
+| Domain | Core Technologies | Focus & Architectural Principles |
 | :--- | :--- | :--- |
-| **Spatial Web & Frontends** | Pure CSS3 3D Matrix rendering, sub-1ms requestAnimationFrame physics loops, zero bloated external frameworks. | TypeScript, React, Next.js, Web Audio DSP |
-| **Native Desktop Systems** | Low-footprint Win32 process masking, asynchronous IPC channels, sub-25 MB RAM resident footprint. | Rust, Tauri, Win32 API, C++ |
-| **Algorithms & Systems** | Algorithmic complexity proofs, Linux VFS kernel notes, automated edge cloud delivery. | C++, Rust, Google Cloud, Firebase |
+| **Low-Level Systems** | C++, Rust, Win32 API, POSIX | Kernel capture hooks, IPC channels, memory safety, sub-25 MB RAM footprints. |
+| **Spatial & Front-End Web** | TypeScript, JavaScript (ES6+), React, Next.js, HTML5, CSS3 | Pure CSS3 3D Matrix mathematics, sub-1ms RAF render loops, zero framework bloat. |
+| **Audio & Native Runtimes** | Web Audio API, Tauri, Node.js, Webpack | Real-time logarithmic DSP dynamics, Discord RPC synchronization, desktop sandboxing. |
+| **Cloud & DevOps** | Google Cloud Platform (GCP), Firebase, Git, GitHub Actions | Edge CDN hosting, CI/CD automated telemetry pipelines, Linux environments. |
 
 ---
 
-### Technology Stack & Architecture
+### Open Source Repositories
+
+| Repository | Focus | Primary Stack | Architecture Summary |
+| :--- | :--- | :--- | :--- |
+| **[dsa-patterns](https://github.com/raghavatgit/dsa-patterns)** | Algorithms | Rust, C++, TypeScript | 100+ algorithmic solutions with formal complexity proofs and test suites. |
+| **[til](https://github.com/raghavatgit/til)** | Systems Research | Markdown, Systems Architecture | 110+ technical notes on Linux VFS, storage engines, and kernel subsystems. |
+| **[StreamShield](https://github.com/raghavatgit/StreamShield)** | Desktop Security | Rust, Tauri, Win32 API, React | Windows capture isolation masking sensitive application windows in real time. |
+| **[ContactMe](https://github.com/raghavatgit/ContactMe)** | Spatial 3D Web | Vanilla JavaScript, CSS3 Matrix | Cursor-velocity physics portal with sub-1ms RAF loop and zero dependencies. |
+| **[vencord-ytm-player](https://github.com/raghavatgit/vencord-ytm-player)** | Audio DSP | TypeScript, React, Web Audio API | YouTube Music Vencord client with logarithmic DSP normalization and Discord RPC. |
+| **[Zenflow-3D](https://github.com/raghavatgit/Zenflow-3D)** | Spatial Focus | JavaScript, CSS3 Perspectives | Kinetic motion focus environment utilizing multi-layered perspective planes. |
+| **[FoodStaticWebs](https://github.com/raghavatgit/FoodStaticWebs)** | Commercial Web | HTML5, CSS3 Grid, JavaScript | High-performance culinary templates with fluid responsive layouts. |
+
+---
+
+### Live Telemetry & Engineering Activity
 
 <div align="center">
-  <p>
-    <strong>Core Languages</strong><br />
-    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" height="28" alt="C++" />
-    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" height="28" alt="Rust" />
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" height="28" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="28" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="28" alt="Python" />
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="28" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="28" alt="CSS3" />
-  </p>
-  <p>
-    <strong>Frontend & Native Systems</strong><br />
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="28" alt="React" />
-    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" height="28" alt="Next.js" />
-    <img src="https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=black" height="28" alt="Tauri" />
-    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="28" alt="Windows" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="28" alt="Linux" />
-  </p>
-  <p>
-    <strong>Cloud, Databases & Tooling</strong><br />
-    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" height="28" alt="Google Cloud" />
-    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" height="28" alt="Firebase" />
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" height="28" alt="Node.js" />
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="28" alt="Git" />
-  </p>
-</div>
-
-<br />
-
----
-
-### Featured Architectures & Case Studies
-
-<div align="center">
-  <a href="https://contactraghav.web.app"><img src="assets/card-contactme.svg?v=1790524432" width="48%" alt="ContactMe 3D Spatial Portal" /></a>
-  &nbsp;
-  <a href="https://github.com/raghavatgit/StreamShield"><img src="assets/card-streamshield.svg?v=1790524432" width="48%" alt="StreamShield Privacy Isolation" /></a>
-</div>
-
-<br />
-
-#### 1. [ContactMe | 3D Spatial Web Experience](https://contactraghav.web.app)
-Interactive personal web portal calculating real-time cursor velocity and perspective transforms without third-party graphics engines.
-
-- **Dynamic Cursor Physics**: Sub-1ms requestAnimationFrame render loop tracking mouse velocity vectors in real time.
-- **CSS3 Matrix3D Calculations**: Pure mathematical perspective transformations eliminating Three.js and WebGL overhead.
-- **Zero-Bloat Client Delivery**: Compressed under 15 KB gzipped footprint with zero external dependencies.
-- **Production Edge Hosting**: Deployed globally on Firebase hosting at [contactraghav.web.app](https://contactraghav.web.app).
-
-**Stack**: Vanilla ES6+, CSS3 3D Matrix, Firebase Edge Hosting  
-**Actions**: [Launch Interactive Space ->](https://contactraghav.web.app) | [Inspect Source Repository ->](https://github.com/raghavatgit/ContactMe)
-
-<br />
-
-#### 2. [StreamShield | Native Windows Privacy Isolation](https://github.com/raghavatgit/StreamShield)
-Lightweight Windows utility isolating sensitive application windows from OBS, Discord, and screen recording pipelines in real time.
-
-- **Kernel-Level Capture Affinity**: Hooks Windows `SetWindowDisplayAffinity` API (`WDA_EXCLUDEFROMCAPTURE`) to mask target windows cleanly.
-- **Selective Window Masking**: Automatically shields credentials, private chats, and sensitive apps while streaming.
-- **Low-Footprint Architecture**: Built with Rust and Tauri, operating under a 25 MB resident RAM footprint.
-- **Asynchronous IPC Bridge**: Non-blocking message channel communicating window states between the Rust core and React interface.
-
-**Stack**: Rust, Tauri, Win32 API, React, TypeScript  
-**Actions**: [Inspect Architecture & Implementation ->](https://github.com/raghavatgit/StreamShield)
-
-<br />
-
-#### 3. [vencord-ytm-player | Persistent Desktop Audio Client](https://github.com/raghavatgit/vencord-ytm-player)
-Embedded YouTube Music companion client for Vencord with DSP audio normalization and Discord Rich Presence synchronization.
-
-- **Logarithmic Audio DSP**: Real-time dynamic range normalization preventing sudden decibel spikes between tracks.
-- **IPC Discord Synchronization**: Persistent non-blocking communication channel mirroring track metadata to Discord RPC.
-- **Ring Buffer Queue Management**: Low-latency track caching ensuring smooth playback resumption.
-- **Minimal System Overhead**: Lightweight background daemon footprint running inside the client sandbox.
-
-**Stack**: TypeScript, React, Web Audio API, Webpack, Discord RPC  
-**Actions**: [Inspect Client Extension ->](https://github.com/raghavatgit/vencord-ytm-player)
-
----
-
-### Open Source Repositories & Knowledge Base
-
-| Project | Category | Stack | Overview | Action |
-| :--- | :--- | :--- | :--- | :--- |
-| **[dsa-patterns](https://github.com/raghavatgit/dsa-patterns)** | Algorithms | Rust, C++, TypeScript | 100+ production-grade algorithmic solutions with formal complexity proofs and unit test harnesses. | [Explore Codebase ->](https://github.com/raghavatgit/dsa-patterns) |
-| **[til](https://github.com/raghavatgit/til)** | Systems Notes | Markdown, Architecture | 110+ technical notes covering Linux VFS dentry cache, database storage engines, and memory management. | [Browse Notes ->](https://github.com/raghavatgit/til) |
-| **[Zenflow-3D](https://github.com/raghavatgit/Zenflow-3D)** | Kinetic Motion | JavaScript, CSS3 Perspectives | Deep focus spatial interface implementing multi-layered perspective planes and tactile physics. | [View Prototype ->](https://github.com/raghavatgit/Zenflow-3D) |
-| **[FoodStaticWebs](https://github.com/raghavatgit/FoodStaticWebs)** | Commercial Web | HTML5, CSS3 Grid, Responsive | Modern responsive culinary web design templates with fluid responsive layouts and fast load times. | [View Templates ->](https://github.com/raghavatgit/FoodStaticWebs) |
-
----
-
-### Engineering Activity & Live Telemetry
-
-<div align="center">
-  <img src="assets/snake.svg?v=1790524432" alt="Contribution Snake Animation" width="100%" />
+  <img src="assets/snake.svg?v=1790525339" alt="Contribution Snake Animation" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=raghavatgit&theme=tokyonight&hide_border=true&background=0A0D16&stroke=30363D&ring=58A6FF&fire=3FB950&currStreakLabel=58A6FF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=raghavatgit&theme=tokyonight&hide_border=true&background=000000&stroke=1F1F1F&ring=FFFFFF&fire=10B981&currStreakLabel=A1A1AA" alt="GitHub Streak" />
 </div>
 
 <br />
 
-| Metric | Overview | Focus Area |
+| Metric | Telemetry Count | Focus Domain |
 | :--- | :--- | :--- |
-| **Annual Activity** | 884+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
+| **Annual Activity** | 885+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
 | **Problem Solutions** | 100+ Production-Grade Solutions | Rust, C++, TypeScript ([dsa-patterns](https://github.com/raghavatgit/dsa-patterns)) |
 | **Systems & Architecture** | 110+ Technical Engineering Notes | Linux VFS, Distributed Systems, Networking ([til](https://github.com/raghavatgit/til)) |
 | **Active Codebases** | 12 Public Repositories | Desktop Utilities, Web Audio DSP, Spatial 3D Web |
@@ -158,12 +130,13 @@ Embedded YouTube Music companion client for Vencord with DSP audio normalization
 Whether you are looking for a responsive full-stack web application, a custom native desktop utility, or an end-to-end prototype:
 
 - **Portfolio**: [crag.web.app](https://crag.web.app)
-- **Interactive Portal**: [contactraghav.web.app](https://contactraghav.web.app)
+- **Interactive Space**: [contactraghav.web.app](https://contactraghav.web.app)
 - **LinkedIn**: [linkedin.com/in/raghav-goyal-linkd](https://www.linkedin.com/in/raghav-goyal-linkd/)
 - **Email**: [goyalraghav1289@gmail.com](mailto:goyalraghav1289@gmail.com)
+- **Location**: New Delhi, India
 
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg?v=1790524432" alt="Footer Banner" width="100%" />
+  <img src="assets/footer.svg?v=1790525339" alt="Footer Banner" width="100%" />
 </div>
