@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg?v=1790532848" alt="Raghav Goyal" width="100%" />
+  <img src="assets/banner.svg?v=1790579633" alt="Raghav Goyal" width="100%" />
 </div>
 
 <br />
@@ -115,14 +115,14 @@ Undergraduate computer science student at South Asian University ('29) specializ
 ### Live Telemetry & Engineering Activity
 
 <div align="center">
-  <img src="assets/telemetry.svg?v=1790532848" alt="Telemetry Dashboard" width="100%" />
+  <img src="assets/telemetry.svg?v=1790579633" alt="Telemetry Dashboard" width="100%" />
 </div>
 
 <br />
 
 | Metric | Telemetry Count | Focus Domain |
 | :--- | :--- | :--- |
-| **Annual Activity** | 890+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
+| **Annual Activity** | 891+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
 | **Problem Solutions** | 100+ Production-Grade Solutions | Rust, C++, TypeScript ([dsa-patterns](https://github.com/raghavatgit/dsa-patterns)) |
 | **Systems & Architecture** | 110+ Technical Engineering Notes | Linux VFS, Distributed Systems, Networking ([til](https://github.com/raghavatgit/til)) |
 | **Active Codebases** | 12 Public Repositories | Desktop Utilities, Web Audio DSP, Spatial 3D Web |
@@ -150,5 +150,5 @@ Whether you are looking for a responsive full-stack web application, a custom na
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg?v=1790532848" alt="Footer Banner" width="100%" />
+  <img src="assets/footer.svg?v=1790579633" alt="Footer Banner" width="100%" />
 </div>
