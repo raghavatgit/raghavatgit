@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg?v=1790579633" alt="Raghav Goyal" width="100%" />
+  <img src="assets/banner.svg?v=1790581586" alt="Raghav Goyal" width="100%" />
 </div>
 
 <br />
@@ -91,6 +91,8 @@ Undergraduate computer science student at South Asian University ('29) specializ
 | Domain | Core Technologies | Focus & Architectural Principles |
 | :--- | :--- | :--- |
 | **Low-Level Systems** | C#, C++, Rust, Win32 API, POSIX, WPF, Direct3D | Kernel hooks, Direct3D UI, OS latency tuning, memory safety, sub-25 MB RAM footprints. |
+| **Embedded & IoT Mesh** | C++, ESP32, LoRa SX1276, BLE, UART, GATT | Multi-hop flood mesh protocols, packet de-duplication, RF link budgets, low-power telemetry. |
+| **Robotics & Sensor Fusion** | Python, Kalman Filtering (EKF), TCN, Leaflet, Kotlin | GPS-denied dead reckoning, inertial odometry, Zero Velocity Updates (ZUPT). |
 | **Spatial & Front-End Web** | TypeScript, JavaScript (ES6+), React, Next.js, HTML5, CSS3 | Pure CSS3 3D Matrix mathematics, sub-1ms RAF render loops, zero framework bloat. |
 | **Audio & Native Runtimes** | Web Audio API, Tauri, Node.js, Webpack | Real-time logarithmic DSP dynamics, Discord RPC synchronization, desktop sandboxing. |
 | **Cloud & DevOps** | Google Cloud Platform (GCP), Firebase, Git, GitHub Actions | Edge CDN hosting, CI/CD automated telemetry pipelines, Linux environments. |
@@ -101,31 +103,35 @@ Undergraduate computer science student at South Asian University ('29) specializ
 
 | Repository | Focus | Primary Stack | Architecture Summary |
 | :--- | :--- | :--- | :--- |
+| **[Aegis-Raksha](https://github.com/raghavatgit/Aegis-Raksha)** | Disaster Mesh Network | C++, ESP32, Flutter, LoRa, BLE | Multi-hop LoRa SX1276 emergency network bridging offline BLE mobile clients in disaster zones. |
+| **[NavDrishti](https://github.com/raghavatgit/NavDrishti)** | Autonomous Navigation | Python, EKF, TCN, Leaflet, Kotlin | GPS-denied dead reckoning navigation engine fusing IMU odometry and Kalman filtering (SIH 2026). |
 | **[AnxiouslyOptimized](https://github.com/raghavatgit/AnxiouslyOptimized)** | Windows Performance & Debloater | C#, WPF, Direct3D, PowerShell | Standalone 275 KB latency optimizer with sub-50ms startup, dual-OS registry tuning, and gaming booster. |
+| **[Bitverse-Agrostat](https://github.com/raghavatgit/Bitverse-Agrostat)** | Industrial Agri-IoT | C++, ESP32, Python, FastAPI, React | Real-time soil nutrient telemetry pipeline with crop disease predictive models. |
+| **[sau-cs-core](https://github.com/raghavatgit/sau-cs-core)** | Academic CS Foundations | C, Java | South Asian University theoretical algorithms (Ford-Fulkerson, MCM) and enterprise Java OOP. |
 | **[dsa-patterns](https://github.com/raghavatgit/dsa-patterns)** | Algorithms | Rust, C++, TypeScript | 100+ algorithmic solutions with formal complexity proofs and test suites. |
 | **[til](https://github.com/raghavatgit/til)** | Systems Research | Markdown, Systems Architecture | 110+ technical notes on Linux VFS, storage engines, and kernel subsystems. |
 | **[StreamShield](https://github.com/raghavatgit/StreamShield)** | Desktop Security | Rust, Tauri, Win32 API, React | Windows capture isolation masking sensitive application windows in real time. |
+| **[Orbit-SmartCity](https://github.com/raghavatgit/Orbit-SmartCity)** | Civic Infrastructure Web | React 18, Tailwind CSS, Vite | Modular municipal portal for emergency dispatch, transit schedules, and public services. |
 | **[ContactMe](https://github.com/raghavatgit/ContactMe)** | Spatial 3D Web | Vanilla JavaScript, CSS3 Matrix | Cursor-velocity physics portal with sub-1ms RAF loop and zero dependencies. |
 | **[vencord-ytm-player](https://github.com/raghavatgit/vencord-ytm-player)** | Audio DSP | TypeScript, React, Web Audio API | YouTube Music Vencord client with logarithmic DSP normalization and Discord RPC. |
-| **[Zenflow-3D](https://github.com/raghavatgit/Zenflow-3D)** | Spatial Focus | JavaScript, CSS3 Perspectives | Kinetic motion focus environment utilizing multi-layered perspective planes. |
-| **[FoodStaticWebs](https://github.com/raghavatgit/FoodStaticWebs)** | Commercial Web | HTML5, CSS3 Grid, JavaScript | High-performance culinary templates with fluid responsive layouts. |
+| **[discord-ptb-palette](https://github.com/raghavatgit/discord-ptb-palette)** | Windows Systems Utility | Python, WinAPI COM, Shell | Windows desktop shortcut automation, launch parameter mutation, and icon synthesis. |
 
 ---
 
 ### Live Telemetry & Engineering Activity
 
 <div align="center">
-  <img src="assets/telemetry.svg?v=1790579633" alt="Telemetry Dashboard" width="100%" />
+  <img src="assets/telemetry.svg?v=1790581586" alt="Telemetry Dashboard" width="100%" />
 </div>
 
 <br />
 
 | Metric | Telemetry Count | Focus Domain |
 | :--- | :--- | :--- |
-| **Annual Activity** | 891+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
+| **Annual Activity** | 906+ Contributions (Active Streak) | Algorithmic Problem Solving & Systems Development |
 | **Problem Solutions** | 100+ Production-Grade Solutions | Rust, C++, TypeScript ([dsa-patterns](https://github.com/raghavatgit/dsa-patterns)) |
 | **Systems & Architecture** | 110+ Technical Engineering Notes | Linux VFS, Distributed Systems, Networking ([til](https://github.com/raghavatgit/til)) |
-| **Active Codebases** | 12 Public Repositories | Desktop Utilities, Web Audio DSP, Spatial 3D Web |
+| **Active Codebases** | 18 Public Repositories | Embedded IoT, Autonomous Navigation, Systems Utilities |
 
 ---
 
@@ -150,5 +156,5 @@ Whether you are looking for a responsive full-stack web application, a custom na
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg?v=1790579633" alt="Footer Banner" width="100%" />
+  <img src="assets/footer.svg?v=1790581586" alt="Footer Banner" width="100%" />
 </div>
