@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg?v=1790581586" alt="Raghav Goyal" width="100%" />
+  <img src="assets/banner.svg?v=1790582153" alt="Raghav Goyal" width="100%" />
 </div>
 
 <br />
@@ -40,28 +40,49 @@ Undergraduate computer science student at South Asian University ('29) specializ
   ```
 - **Actions**: [Inspect Architecture & Implementation ->](https://github.com/raghavatgit/AnxiouslyOptimized)
 
-#### 2. Native Desktop Systems & Privacy Isolation
+#### 2. Decentralized Disaster Emergency Mesh & IoT Hardware Systems
+- **[Aegis-Raksha](https://github.com/raghavatgit/Aegis-Raksha)**: Decentralized disaster distress communication architecture engineered for infrastructure-collapsed zones.
+- **Embedded RF Transceiver Firmware**: Direct C++ Arduino firmware for Semtech SX1276/SX1278 (868/915 MHz) transceivers implementing controlled multi-hop packet flooding, TTL hop limits, and in-memory ring-buffer de-duplication to eliminate broadcast storms.
+- **Offline Mobile Client**: Cross-platform Flutter client communicating via Bluetooth Low Energy (BLE) GATT profiles to acquire background GPS coordinates, dispatch distress beacons, and trigger local audio sirens without cellular or internet connectivity.
+- **Hardware Gateway Bridges**: Python and PowerShell serial bridges (`iot_usb_bridge.py`, `iot_usb_bridge.ps1`) streaming field node telemetry to cloud command centers.
+- **Action**: [Inspect Architecture & Implementation ->](https://github.com/raghavatgit/Aegis-Raksha)
+
+#### 3. GPS-Denied Autonomous Dead Reckoning Navigation & Inertial Odometry
+- **[NavDrishti](https://github.com/raghavatgit/NavDrishti)**: Autonomous positioning and sensor fusion engine engineered for GPS-denied environments (tunnels, subterranean shafts, and GNSS-jammed theatres). Built for Smart India Hackathon (SIH 2026).
+- **Inertial Machine Learning**: Temporal Convolutional Network (TCN) learning linear displacement and velocity directly from noisy 6-DOF IMU accelerometer and gyroscope vectors.
+- **Multi-Sensor Kalman Filtering**: Extended Kalman Filter (EKF) combining wheel tick odometry, magnetometer heading reference, and Zero Velocity Updates (ZUPT) to prevent exponential integration drift.
+- **Geospatial Visualization**: Leaflet.js engine rendering live vehicle trajectories, confidence ellipses, and ground-truth comparisons.
+- **Action**: [Inspect Architecture & Implementation ->](https://github.com/raghavatgit/NavDrishti)
+
+#### 4. Native Desktop Systems & Privacy Isolation
 - **[StreamShield](https://github.com/raghavatgit/StreamShield)**: Lightweight Windows desktop utility engineered with Rust and Tauri that isolates sensitive application windows from screen capture pipelines (OBS, Discord, Zoom) in real time.
 - **Kernel-Level Affinity**: Direct interop with Windows Win32 API via `SetWindowDisplayAffinity(hwnd, WDA_EXCLUDEFROMCAPTURE)` at the Desktop Window Manager (DWM) compositor level.
 - **Resource Discipline**: Operates strictly within a sub-25 MB resident RAM footprint with an asynchronous, non-blocking IPC state bridge between the Rust core and the user interface.
 - **Action**: [Inspect Architecture & Implementation ->](https://github.com/raghavatgit/StreamShield)
 
-#### 3. Spatial 3D Web & Interactive Interface Physics
+#### 5. Industrial IoT Telemetry & Agri-Tech Analytics
+- **[Bitverse-Agrostat](https://github.com/raghavatgit/Bitverse-Agrostat)**: End-to-end industrial IoT telemetry pipeline streaming continuous soil nutrient data (NPK), ambient temperature, and moisture from ESP32 microcontrollers.
+- **Streaming Pipeline**: Python FastAPI server and USB serial bridge dispatching high-frequency telemetry over WebSockets to predictive crop disease models.
+- **Analytics Dashboard**: React 18, Tailwind CSS, and Vite analytics dashboard displaying real-time environmental trends and crop risk scores.
+- **Action**: [Inspect Architecture & Implementation ->](https://github.com/raghavatgit/Bitverse-Agrostat)
+
+#### 6. Spatial 3D Web & Interactive Interface Physics
 - **[ContactMe](https://contactraghav.web.app)**: Interactive 3D spatial web environment calculating perspective matrix transformations driven by cursor velocity vectors.
 - **Mathematical Rendering**: Pure CSS3 3D Matrix calculations executed inside a sub-1ms `requestAnimationFrame` loop, eliminating WebGL and Three.js runtime overhead entirely.
 - **Zero-Bloat Delivery**: Complete client bundle compressed under 15 KB gzipped, deployed globally on Firebase edge hosting.
 - **[Zenflow-3D](https://github.com/raghavatgit/Zenflow-3D)**: Deep focus spatial interface implementing multi-layered perspective planes and tactile physics.
 - **Actions**: [Launch Interactive Portal ->](https://contactraghav.web.app) | [Inspect Source Code ->](https://github.com/raghavatgit/ContactMe) | [Explore Zenflow-3D ->](https://github.com/raghavatgit/Zenflow-3D)
 
-#### 4. Audio Digital Signal Processing & Desktop Extensions
+#### 7. Audio Digital Signal Processing & Desktop Extensions
 - **[vencord-ytm-player](https://github.com/raghavatgit/vencord-ytm-player)**: Embedded YouTube Music companion client extension for Vencord with real-time DSP audio normalization.
 - **Dynamic Range Normalization**: Real-time logarithmic DSP curve preventing sudden volume spikes between music tracks.
 - **IPC State Broadcast**: Persistent non-blocking communication channel synchronizing track metadata and state to Discord Rich Presence.
 - **Ring Buffer Queue**: Low-latency memory queue management ensuring seamless playback resumption.
 - **Action**: [Inspect Client Extension ->](https://github.com/raghavatgit/vencord-ytm-player)
 
-#### 5. Commercial Web & Contract MVP Delivery
-- Delivering production-ready web applications, high-converting landing pages, and interactive prototypes deployed on Google Cloud Platform and Firebase edge infrastructure with automated CI/CD pipelines.
+#### 8. Civic Web Infrastructure & Component Systems
+- **[Orbit-SmartCity](https://github.com/raghavatgit/Orbit-SmartCity)**: Modular municipal services and emergency dispatch portal built with React 18, Tailwind CSS, and Vite. Features componentized views for emergency alerts, transit routing, and municipal department directories.
+- **Action**: [Inspect Web Architecture ->](https://github.com/raghavatgit/Orbit-SmartCity)
 
 ---
 
@@ -81,8 +102,10 @@ Undergraduate computer science student at South Asian University ('29) specializ
   - **Networking Stack**: TCP state machines, epoll event multiplexing, congestion control algorithms (CUBIC, BBR).
 - **Action**: [Browse Systems Knowledge Base ->](https://github.com/raghavatgit/til)
 
-#### 3. Academic Foundation
+#### 3. Academic Foundation & Theoretical Computer Science
 - Department of Computer Science, South Asian University, New Delhi (Class of 2029).
+- **[sau-cs-core](https://github.com/raghavatgit/sau-cs-core)**: Formal implementations of Design & Analysis of Algorithms (Matrix Chain Multiplication, Huffman Coding, Dijkstra, Floyd-Warshall, Bellman-Ford, Ford-Fulkerson Network Flow in C) and enterprise multi-tier Object-Oriented design patterns in Java.
+- **Action**: [Inspect Academic Codebase ->](https://github.com/raghavatgit/sau-cs-core)
 
 ---
 
@@ -121,7 +144,7 @@ Undergraduate computer science student at South Asian University ('29) specializ
 ### Live Telemetry & Engineering Activity
 
 <div align="center">
-  <img src="assets/telemetry.svg?v=1790581586" alt="Telemetry Dashboard" width="100%" />
+  <img src="assets/telemetry.svg?v=1790582153" alt="Telemetry Dashboard" width="100%" />
 </div>
 
 <br />
@@ -156,5 +179,5 @@ Whether you are looking for a responsive full-stack web application, a custom na
 <br />
 
 <div align="center">
-  <img src="assets/footer.svg?v=1790581586" alt="Footer Banner" width="100%" />
+  <img src="assets/footer.svg?v=1790582153" alt="Footer Banner" width="100%" />
 </div>
