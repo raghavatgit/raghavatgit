@@ -19,7 +19,7 @@
   <!-- Column 1: Contributions -->
   <g transform="translate(28, 0)">
     <text x="0" y="44" fill="#f4f4f5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.02em">
-      910+
+      1060+
     </text>
     <text x="0" y="66" fill="#71717a" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="0.05em">
       ANNUAL CONTRIBUTIONS
@@ -29,7 +29,7 @@
   <!-- Column 2: Algorithmic Patterns -->
   <g transform="translate(243, 0)">
     <text x="0" y="44" fill="#f4f4f5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.02em">
-      100+
+      200+
     </text>
     <text x="0" y="66" fill="#71717a" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="0.05em">
       ALGORITHMIC PATTERNS
@@ -39,7 +39,7 @@
   <!-- Column 3: Systems & OS Notes -->
   <g transform="translate(458, 0)">
     <text x="0" y="44" fill="#f4f4f5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.02em">
-      110+
+      190+
     </text>
     <text x="0" y="66" fill="#71717a" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="0.05em">
       SYSTEMS &amp; OS NOTES
